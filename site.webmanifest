@@ -1,9 +1,9 @@
 {
-  "name": "Blood of Dawnwalker 攻略站",
+  "name": "Blood of Dawnwalker Guide",
   "short_name": "Dawnwalker Guide",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0b0d0f",
   "theme_color": "#0b0d0f",
-  "lang": "zh-CN"
+  "lang": "en"
 }
