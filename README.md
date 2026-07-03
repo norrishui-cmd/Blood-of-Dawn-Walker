@@ -23,31 +23,19 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 5. Select `main` and `/root`, then save.
 6. Wait for GitHub Pages to publish the site.
 
-If your repository is named `blood-dawnwalker-guide`, the default URL is usually:
+This package is configured for your custom domain:
 
 ```text
-https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide/
+https://bloodofdawnwalker.cc/
 ```
 
-## Replace The Site URL Before Launch
+## Site URL
 
-Open PowerShell in this folder and run:
-
-```powershell
-.\configure-site-url.ps1 -SiteUrl "https://your-username.github.io/blood-dawnwalker-guide"
-```
-
-For a custom domain, run:
-
-```powershell
-.\configure-site-url.ps1 -SiteUrl "https://example.com"
-```
-
-The script updates:
+The production URL has already been written into:
 
 - `index.html` canonical, Open Graph URL, and structured data
-- `sitemap.xml` page URL
-- `robots.txt` sitemap URL
+- `sitemap.xml`
+- `robots.txt`
 
 ## Google Search Console
 
@@ -60,10 +48,10 @@ The script updates:
 sitemap.xml
 ```
 
-Example full sitemap URL:
+Submit this sitemap URL:
 
 ```text
-https://your-username.github.io/blood-dawnwalker-guide/sitemap.xml
+https://bloodofdawnwalker.cc/sitemap.xml
 ```
 
 ## Content Notes
