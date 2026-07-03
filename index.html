@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blood of Dawnwalker 攻略站 MVP | 首发情报、构筑与任务指南</title>
+    <meta
+      name="description"
+      content="面向 The Blood of Dawnwalker 玩家需求的中文攻略站 MVP，聚合发售前情报、系统解析、构筑规划、任务优先级、Boss 数据库和首发更新路线。"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0b0d0f" />
+    <link rel="canonical" href="https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Blood of Dawnwalker 攻略站" />
+    <meta property="og:title" content="Blood of Dawnwalker 攻略站 MVP" />
+    <meta
+      property="og:description"
+      content="The Blood of Dawnwalker 中文攻略站，包含发售前情报、开荒规划、系统解析、Boss 与任务资料库结构。"
+    />
+    <meta property="og:url" content="https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide/" />
+    <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/2081620/header.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Blood of Dawnwalker 攻略站",
+        "url": "https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide/",
+        "inLanguage": "zh-CN",
+        "description": "The Blood of Dawnwalker 中文攻略站 MVP，聚合发售前情报、系统解析、构筑规划、任务优先级和资料库结构。",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Blood of Dawnwalker 攻略站首页">
+        <span class="brand-mark">BD</span>
+        <span>
+          <strong>Blood of Dawnwalker</strong>
+          <small>中文攻略站 MVP</small>
+        </span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#guides">攻略库</a>
+        <a href="#planner">开荒规划</a>
+        <a href="#database">资料库</a>
+        <a href="#roadmap">更新路线</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="黑暗中世纪城堡与黎明血色光线的视觉背景"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">黑暗奇幻开放世界 ARPG · 发售前攻略中枢</p>
+          <h1 id="hero-title">The Blood of Dawnwalker</h1>
+          <p class="hero-copy">
+            为首发玩家准备的可更新攻略站：把官方情报、玩家高频问题、构筑思路、任务路线和
+            Boss 数据库放进一个能马上扩展的 MVP。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#guides">进入攻略库</a>
+            <a class="button secondary" href="#planner">规划首周开荒</a>
+          </div>
+          <dl class="fact-strip" aria-label="已确认情报">
+            <div>
+              <dt>类型</dt>
+              <dd>开放世界动作 RPG</dd>
+            </div>
+            <div>
+              <dt>平台</dt>
+              <dd>PC / PS5 / Xbox Series X|S</dd>
+            </div>
+            <div>
+              <dt>开发</dt>
+              <dd>Rebel Wolves</dd>
+            </div>
+            <div>
+              <dt>状态</dt>
+              <dd>发售日待公布</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="research band" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow">站点定位</p>
+          <h2 id="research-title">攻略站必备元素</h2>
+          <p>
+            当前阶段玩家最需要的是“准确信息 + 开荒准备 + 发售后可快速补全的结构”，而不是伪造通关攻略。
+          </p>
+        </div>
+        <div class="insight-grid">
+          <article>
+            <span class="tag">搜索需求</span>
+            <h3>发售日、平台、配置、预购</h3>
+            <p>承接泛搜索流量，页面必须清楚标注已确认与待公布，避免误导。</p>
+          </article>
+          <article>
+            <span class="tag">玩法需求</span>
+            <h3>白天/夜晚、吸血鬼能力、时间压力</h3>
+            <p>围绕游戏特色做系统页，解释机制、风险和可重复验证的策略。</p>
+          </article>
+          <article>
+            <span class="tag">首发需求</span>
+            <h3>开荒路线、Build、Boss、结局</h3>
+            <p>提前设计数据库字段，发售后能按地区、任务线、奖励和难度快速更新。</p>
+          </article>
+          <article>
+            <span class="tag">留存需求</span>
+            <h3>收藏、进度、补丁与资料更新</h3>
+            <p>通过清单、筛选、版本记录和专题页，让玩家反复回来查。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="tool-panel" aria-labelledby="search-title">
+        <div>
+          <p class="eyebrow">快速入口</p>
+          <h2 id="search-title">按你的问题找攻略</h2>
+        </div>
+        <div class="search-row">
+          <label class="sr-only" for="guide-search">搜索攻略</label>
+          <input id="guide-search" type="search" placeholder="搜索：发售日、平台、构筑、Boss、任务..." />
+          <div class="filters" aria-label="攻略分类筛选">
+            <button class="filter active" data-filter="all" type="button">全部</button>
+            <button class="filter" data-filter="news" type="button">情报</button>
+            <button class="filter" data-filter="systems" type="button">系统</button>
+            <button class="filter" data-filter="builds" type="button">构筑</button>
+            <button class="filter" data-filter="walkthrough" type="button">流程</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="guides" class="guide-grid" aria-label="攻略库">
+        <article class="guide-card" data-category="news" data-keywords="release date platform 发售日 平台 pc ps5 xbox">
+          <div class="card-top">
+            <span class="tag confirmed">已确认</span>
+            <span>情报</span>
+          </div>
+          <h3>发售日与平台汇总</h3>
+          <p>确认登陆 PC、PlayStation 5 与 Xbox Series X|S；具体发售日仍未公布。</p>
+          <a href="#database">查看资料卡</a>
+        </article>
+        <article class="guide-card" data-category="systems" data-keywords="day night time system vampire 白天 夜晚 时间 吸血鬼">
+          <div class="card-top">
+            <span class="tag planned">待实测</span>
+            <span>系统</span>
+          </div>
+          <h3>白天 / 夜晚行动策略</h3>
+          <p>将记录不同时间段的能力限制、敌人变化、任务窗口与高风险收益。</p>
+          <a href="#planner">先看开荒计划</a>
+        </article>
+        <article class="guide-card" data-category="builds" data-keywords="build skills combat abilities 构筑 技能 战斗 能力">
+          <div class="card-top">
+            <span class="tag planned">框架</span>
+            <span>构筑</span>
+          </div>
+          <h3>新手构筑与能力树</h3>
+          <p>按生存、爆发、潜行、剧情选择四类模板整理，发售后补充数值与配装。</p>
+          <a href="#planner">打开构筑规划</a>
+        </article>
+        <article class="guide-card" data-category="walkthrough" data-keywords="quest walkthrough ending choices 任务 流程 结局 选择">
+          <div class="card-top">
+            <span class="tag planned">首发补全</span>
+            <span>流程</span>
+          </div>
+          <h3>主线任务与结局分歧</h3>
+          <p>保留无剧透路线、关键选择、奖励和不可逆节点字段，适合首发快速更新。</p>
+          <a href="#database">查看任务字段</a>
+        </article>
+      </section>
+
+      <section id="planner" class="planner band" aria-labelledby="planner-title">
+        <div class="section-heading">
+          <p class="eyebrow">首周开荒</p>
+          <h2 id="planner-title">玩家任务清单</h2>
+          <p>这是攻略站最早能提供价值的部分：让玩家在游戏发售前知道该关注什么，发售后能快速替换为实测攻略。</p>
+        </div>
+        <div class="planner-layout">
+          <div class="checklist" aria-label="开荒清单">
+            <label><input type="checkbox" /> 确认发售日、平台、版本和预载时间</label>
+            <label><input type="checkbox" /> 建立无剧透主线流程页</label>
+            <label><input type="checkbox" /> 记录白天与夜晚任务差异</label>
+            <label><input type="checkbox" /> 建立 Boss 招式、弱点、奖励字段</label>
+            <label><input type="checkbox" /> 整理新手 Build 与加点错误成本</label>
+            <label><input type="checkbox" /> 追踪补丁、平衡调整和性能问题</label>
+          </div>
+          <div class="priority-box">
+            <h3>内容优先级</h3>
+            <ol>
+              <li><strong>Day 0：</strong>发售日、平台、配置、中文支持、预购版本。</li>
+              <li><strong>Day 1：</strong>新手指南、难度选择、前 3 小时流程、常见卡关。</li>
+              <li><strong>Week 1：</strong>Boss、区域地图、Build、重要选择与结局条件。</li>
+              <li><strong>长期：</strong>全收集、成就、DLC、补丁数据库和社区投稿。</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="database" class="database" aria-labelledby="database-title">
+        <div class="section-heading">
+          <p class="eyebrow">资料库模型</p>
+          <h2 id="database-title">为发售后更新预留的数据结构</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>模块</th>
+                <th>核心字段</th>
+                <th>用户价值</th>
+                <th>状态</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>任务</td>
+                <td>区域、触发条件、时间段、选择后果、奖励</td>
+                <td>防止错过关键任务与不可逆选择</td>
+                <td><span class="status ready">结构就绪</span></td>
+              </tr>
+              <tr>
+                <td>Boss</td>
+                <td>位置、阶段、招式、弱点、推荐等级、掉落</td>
+                <td>解决卡关和配装问题</td>
+                <td><span class="status ready">结构就绪</span></td>
+              </tr>
+              <tr>
+                <td>构筑</td>
+                <td>核心能力、装备、战斗节奏、优缺点</td>
+                <td>帮助玩家选择游玩风格</td>
+                <td><span class="status draft">待数值</span></td>
+              </tr>
+              <tr>
+                <td>世界地图</td>
+                <td>区域、营地、资源、隐藏地点、危险等级</td>
+                <td>提升探索效率与全收集体验</td>
+                <td><span class="status draft">待实测</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="roadmap" class="roadmap band" aria-labelledby="roadmap-title">
+        <div class="section-heading">
+          <p class="eyebrow">MVP 到正式站</p>
+          <h2 id="roadmap-title">迭代路线</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3>情报可信度</h3>
+            <p>每篇文章标注来源、更新时间、是否实测，处理未发售游戏最容易出现的信息污染。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>攻略模板化</h3>
+            <p>任务、Boss、Build、地图采用统一字段，降低发售后填充成本。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>互动工具</h3>
+            <p>加入进度保存、构筑计算器、收集清单、Boss 过滤器和版本对比。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>社区增长</h3>
+            <p>开放投稿、评论纠错、视频嵌入和多语言 SEO 页面，扩大长尾搜索覆盖。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>本 MVP 根据公开官方信息与玩家攻略站常见需求设计。未发售内容均以“待实测 / 待公布”标记。</p>
+      <p>
+        参考来源：
+        <a href="https://dawnwalkergame.com/" target="_blank" rel="noreferrer">官方网站</a>
+        <a href="https://www.bandainamcoent.com/games/the-blood-of-dawnwalker" target="_blank" rel="noreferrer">Bandai Namco 页面</a>
+        <a href="https://store.steampowered.com/app/2081620/The_Blood_of_Dawnwalker/" target="_blank" rel="noreferrer">Steam 页面</a>
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
