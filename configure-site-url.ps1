@@ -9,7 +9,7 @@ $files = @("index.html", "sitemap.xml", "robots.txt")
 foreach ($file in $files) {
   $path = Join-Path $PSScriptRoot $file
   (Get-Content -LiteralPath $path -Raw) `
-    -replace "https://YOUR_GITHUB_USERNAME.github.io/blood-dawnwalker-guide", $normalized |
+    -replace "https://bloodofdawnwalker.cc", $normalized |
     Set-Content -LiteralPath $path -Encoding UTF8
 }
 

@@ -5,6 +5,14 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 ## Files
 
 - `index.html`: English guide site homepage
+- `release-date/`: Release date and launch status page
+- `platforms/`: Platform availability page
+- `system-requirements/`: PC requirements tracker
+- `beginner-guide/`: First-hours guide framework
+- `day-night-system/`: Time mechanics guide
+- `builds/`: Beginner build templates
+- `bosses/`: Boss guide and weakness tracker
+- `quests/`: Quest and choice tracker
 - `styles.css`: Site styling
 - `app.js`: Guide search, category filters, and saved checklist state
 - `sitemap.xml`: Sitemap for Google Search Console
