@@ -34,6 +34,7 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 - `app.js`: Guide search, category filters, and saved checklist state
 - `sitemap.xml`: Sitemap for Google Search Console
 - `robots.txt`: Crawl rules with sitemap declaration
+- `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`: Original non-infringing site icons
 - `404.html`: GitHub Pages 404 page
 - `.nojekyll`: Prevents GitHub Pages from processing the site with Jekyll
 - `site.webmanifest`: Basic web app metadata
