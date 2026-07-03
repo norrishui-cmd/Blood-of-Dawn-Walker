@@ -21,6 +21,15 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 - `endings/`: Ending branches and choice tracker
 - `preorder/`: Editions and preorder tracker
 - `achievements/`: Trophy and completion framework
+- `faq/`: High-intent question and answer page
+- `story/`: Spoiler-light story hub
+- `coen/`: Protagonist profile and guide hub
+- `vale-sangora/`: Region and map hub
+- `30-days/`: Time-limit and route planning page
+- `trailers/`: Official media and trailer breakdown hub
+- `game-pass/`: Xbox Game Pass availability tracker
+- `updates/`: Site changelog and news update page
+- `sources/`: Editorial policy and source transparency page
 - `styles.css`: Site styling
 - `app.js`: Guide search, category filters, and saved checklist state
 - `sitemap.xml`: Sitemap for Google Search Console
