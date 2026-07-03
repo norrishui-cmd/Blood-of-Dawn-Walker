@@ -13,6 +13,14 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 - `builds/`: Beginner build templates
 - `bosses/`: Boss guide and weakness tracker
 - `quests/`: Quest and choice tracker
+- `gameplay/`: Open-world gameplay overview
+- `combat/`: Combat and boss preparation guide
+- `vampire-powers/`: Vampire ability tracker
+- `world-map/`: Map, regions, and exploration tracker
+- `characters/`: Character, NPC, and faction tracker
+- `endings/`: Ending branches and choice tracker
+- `preorder/`: Editions and preorder tracker
+- `achievements/`: Trophy and completion framework
 - `styles.css`: Site styling
 - `app.js`: Guide search, category filters, and saved checklist state
 - `sitemap.xml`: Sitemap for Google Search Console
