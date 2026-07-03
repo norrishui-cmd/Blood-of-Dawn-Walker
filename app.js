@@ -36,6 +36,43 @@ if (urlSearch) {
   applyFilters();
 }
 
+const countdown = document.querySelector(".countdown");
+if (countdown) {
+  const launchDate = new Date(countdown.dataset.launchDate);
+  const daysEl = countdown.querySelector("[data-countdown-days]");
+  const hoursEl = countdown.querySelector("[data-countdown-hours]");
+  const minutesEl = countdown.querySelector("[data-countdown-minutes]");
+  const secondsEl = countdown.querySelector("[data-countdown-seconds]");
+  const titleEl = countdown.querySelector("h2");
+
+  function updateCountdown() {
+    const remaining = launchDate.getTime() - Date.now();
+
+    if (remaining <= 0) {
+      daysEl.textContent = "0";
+      hoursEl.textContent = "0";
+      minutesEl.textContent = "0";
+      secondsEl.textContent = "0";
+      titleEl.textContent = "Launch day is here";
+      return;
+    }
+
+    const totalSeconds = Math.floor(remaining / 1000);
+    const days = Math.floor(totalSeconds / 86400);
+    const hours = Math.floor((totalSeconds % 86400) / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    daysEl.textContent = String(days);
+    hoursEl.textContent = String(hours).padStart(2, "0");
+    minutesEl.textContent = String(minutes).padStart(2, "0");
+    secondsEl.textContent = String(seconds).padStart(2, "0");
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+}
+
 document.querySelectorAll(".checklist input").forEach((checkbox, index) => {
   const key = `bdw-check-${index}`;
   checkbox.checked = localStorage.getItem(key) === "true";
