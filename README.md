@@ -30,6 +30,15 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 - `game-pass/`: Xbox Game Pass availability tracker
 - `updates/`: Site changelog and news update page
 - `sources/`: Editorial policy and source transparency page
+- `editions/`: Edition and buyer comparison framework
+- `choices-consequences/`: Decision and outcome tracker
+- `human-vampire/`: Human and vampire form planning guide
+- `narrative-sandbox/`: Route structure and quest freedom guide
+- `romance/`: Cautious relationship and romance tracker
+- `skills/`: Ability tree and progression framework
+- `stealth-feeding/`: Stealth, feeding, and consequence tracker
+- `brencis/`: Character and encounter tracker
+- `lunka/`: Story character and quest tracker
 - `styles.css`: Site styling
 - `app.js`: Guide search, category filters, and saved checklist state
 - `sitemap.xml`: Sitemap for Google Search Console
