@@ -87,7 +87,7 @@ The site is a static GitHub/Vercel-ready guide package with 35 indexable HTML pa
 - Replace external Steam hero image with original non-infringing SVG.
 - Validate HTML, JS, sitemap count, and internal links.
 
-### Step 2 - Depth Sprint For Top 12 URLs
+### Step 2 - Depth Sprint For Top 12 URLs, Executed 2026-07-12
 
 Target pages:
 
@@ -104,7 +104,14 @@ Target pages:
 - `/system-requirements/`
 - `/trailers/`
 
-Goal: expand each to 500-900 useful words with confirmed facts, cautious TBA sections, tables, FAQs, and internal links.
+Goal: expand each to roughly 500-900 useful words with confirmed facts, cautious TBA sections, tables, FAQs, and internal links.
+
+Execution notes:
+
+- Added depth sections to all 12 priority pages.
+- Focused on player decision value rather than fabricated walkthrough data.
+- Added launch-week use cases, evidence standards, update rules, and practical testing frameworks.
+- Kept unverified systems marked as needs testing, TBA, or post-launch verification.
 
 ### Step 3 - Hub Architecture
 
