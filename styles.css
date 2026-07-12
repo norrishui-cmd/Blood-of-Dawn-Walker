@@ -109,7 +109,7 @@ nav a:hover {
 .hero-media {
   background:
     linear-gradient(90deg, rgba(6, 7, 8, 0.9), rgba(6, 7, 8, 0.35) 58%, rgba(6, 7, 8, 0.88)),
-    url("https://cdn.cloudflare.steamstatic.com/steam/apps/2081620/header.jpg") center / cover no-repeat;
+    url("/hero-art.svg") center / cover no-repeat;
   transform: scale(1.03);
 }
 
@@ -523,7 +523,7 @@ td:first-child {
   padding: 88px clamp(18px, 4vw, 56px) 42px;
   background:
     linear-gradient(90deg, rgba(6, 7, 8, 0.94), rgba(6, 7, 8, 0.58)),
-    url("https://cdn.cloudflare.steamstatic.com/steam/apps/2081620/header.jpg") center / cover no-repeat;
+    url("/hero-art.svg") center / cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 
@@ -658,7 +658,7 @@ td:first-child {
   padding: 28px;
   background:
     linear-gradient(90deg, rgba(6, 7, 8, 0.92), rgba(6, 7, 8, 0.64)),
-    url("https://cdn.cloudflare.steamstatic.com/steam/apps/2081620/header.jpg") center / cover no-repeat;
+    url("/hero-art.svg") center / cover no-repeat;
 }
 
 .not-found section {
