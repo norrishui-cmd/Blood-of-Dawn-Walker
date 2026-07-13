@@ -142,7 +142,7 @@ Execution notes:
 - Updated relevant JSON-LD `dateModified` and sitemap `lastmod` values.
 - Kept unverified gameplay, build, boss, quest, ending, and performance claims clearly marked as requiring testing.
 
-### Step 5 - Launch-Week Conversion
+### Step 5 - Launch-Week Conversion, Executed 2026-07-13
 
 - Prepare templates for:
   - boss pages
@@ -151,6 +151,13 @@ Execution notes:
   - map location pages
   - achievement entries
 - Keep drafts unpublished until tested or clearly sourced.
+
+Execution notes:
+
+- Added noindex launch-week templates under `/templates/`.
+- Added boss, quest, build, map location, and achievement templates.
+- Added publishing pipeline sections to `/bosses/`, `/quests/`, `/builds/`, `/world-map/`, and `/achievements/`.
+- Kept templates out of `sitemap.xml` to avoid indexing untested placeholder content.
 
 ### Step 6 - GSC Operations
 
