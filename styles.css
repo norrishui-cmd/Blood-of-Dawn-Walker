@@ -609,6 +609,24 @@ td:first-child {
   color: var(--muted);
 }
 
+.verification-box {
+  border: 1px solid rgba(108, 141, 108, 0.42);
+  background: rgba(108, 141, 108, 0.1);
+  padding: 16px;
+}
+
+.verification-box strong {
+  color: #a7d59b;
+}
+
+.verification-box p {
+  margin-bottom: 8px;
+}
+
+.verification-box p:last-child {
+  margin-bottom: 0;
+}
+
 .data-list {
   display: grid;
   gap: 12px;

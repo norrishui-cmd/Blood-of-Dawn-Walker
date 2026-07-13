@@ -128,11 +128,19 @@ Execution notes:
 - Added child-to-parent backlink sections across cluster pages.
 - Strengthened internal topical relationships without adding thin new URLs.
 
-### Step 4 - Evidence And Source Layer
+### Step 4 - Evidence And Source Layer, Executed 2026-07-13
 
 - Add official source notes where claims are made.
 - Add "Last verified" sections to volatile pages.
 - Add trailer breakdown timestamps when official videos are embedded.
+
+Execution notes:
+
+- Added visible Source And Verification blocks to volatile pre-launch pages.
+- Expanded sources/editorial policy with evidence levels: Confirmed, Reported, Needs Testing, TBA.
+- Added correction policy and changelog entries.
+- Updated relevant JSON-LD `dateModified` and sitemap `lastmod` values.
+- Kept unverified gameplay, build, boss, quest, ending, and performance claims clearly marked as requiring testing.
 
 ### Step 5 - Launch-Week Conversion
 
