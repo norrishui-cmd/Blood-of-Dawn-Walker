@@ -113,13 +113,20 @@ Execution notes:
 - Added launch-week use cases, evidence standards, update rules, and practical testing frameworks.
 - Kept unverified systems marked as needs testing, TBA, or post-launch verification.
 
-### Step 3 - Hub Architecture
+### Step 3 - Hub Architecture, Executed 2026-07-13
 
 - Build stronger parent/child clusters:
   - Release hub: release date, platforms, editions, preorder, system requirements, Game Pass.
   - Gameplay hub: combat, powers, forms, day/night, 30 days, skills, stealth.
   - Walkthrough hub: beginner guide, quests, choices, bosses, builds, map, achievements.
   - Story hub: story, Coen, Lunka, Brencis, characters, romance, endings.
+
+Execution notes:
+
+- Added explicit cluster sections to `/release-date/`, `/gameplay/`, `/beginner-guide/`, and `/story/`.
+- Added recommended reading paths for each hub.
+- Added child-to-parent backlink sections across cluster pages.
+- Strengthened internal topical relationships without adding thin new URLs.
 
 ### Step 4 - Evidence And Source Layer
 
