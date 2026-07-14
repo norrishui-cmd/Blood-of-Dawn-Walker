@@ -4,20 +4,20 @@ Generated: 2026-07-12
 
 ## Current Code Diagnosis
 
-The site is a static GitHub/Vercel-ready guide package with 35 indexable HTML pages and a matching sitemap.
+The site is a static GitHub/Vercel-ready guide package with 215 indexable HTML pages and a matching sitemap after the URL scale and cluster-index phase.
 
 ### Strengths
 
-- 35 real HTML pages and 35 sitemap URLs are aligned.
+- 215 real HTML pages and 215 sitemap URLs are aligned.
 - `robots.txt`, `sitemap.xml`, `CNAME`, `.nojekyll`, favicon files, manifest, and 404 page exist.
 - Every page has a title, meta description, canonical URL, H1, OG metadata, favicon links, and JSON-LD WebPage/Breadcrumb schema after Step 1.
-- Sitemap `lastmod` values are updated to `2026-07-12`.
+- Sitemap `lastmod` values are updated to `2026-07-14`.
 - Internal relative links checked cleanly.
 - External Steam image dependency was removed from CSS and replaced with original non-infringing `hero-art.svg`.
 
 ### Main Risks
 
-- Many pages are still pre-release framework pages with roughly 120-220 English words. They are not empty, but several are still shallow for competitive SEO.
+- Many long-tail pages are still pre-release framework pages. They are indexable and topic-specific, but the next growth pass should add unique screenshots, tested data, tables, and FAQs to the pages that receive impressions.
 - Some important pages need evidence-backed updates as new official details arrive: system requirements, editions, preorder, Game Pass, trailers, skills, bosses, achievements.
 - The site needs stronger topical clusters: each core hub should link to 3-6 child pages and back to its parent.
 - No analytics or GSC performance data is included in the code package, so keyword prioritization must be tracked manually until live data arrives.
@@ -159,7 +159,17 @@ Execution notes:
 - Added publishing pipeline sections to `/bosses/`, `/quests/`, `/builds/`, `/world-map/`, and `/achievements/`.
 - Kept templates out of `sitemap.xml` to avoid indexing untested placeholder content.
 
-### Step 6 - GSC Operations
+### Step 6 - URL Scale And Cluster Indexes, Executed 2026-07-14
+
+- Expanded the indexable URL set from 35 to 215 pages.
+- Added long-tail pre-launch tracker pages across release, gameplay, walkthrough, story, technical, FAQ, updates, and sources intent.
+- Added `/guide-index/` as a crawlable master index.
+- Added topic-cluster index pages: `/release-guides/`, `/gameplay-guides/`, `/walkthrough-guides/`, `/story-guides/`, `/technical-guides/`, `/faq-guides/`, and `/updates-guides/`.
+- Added homepage crawl paths to the new cluster pages.
+- Regenerated `sitemap.xml` with 215 URLs and excluded all noindex template pages.
+- Preserved source-boundary language so pre-release pages do not invent unconfirmed gameplay, quest, boss, ending, or achievement facts.
+
+### Step 7 - GSC Operations
 
 - Submit `https://bloodofdawnwalker.cc/sitemap.xml`.
 - Request indexing for homepage and top hubs first.
@@ -170,7 +180,17 @@ Execution notes:
 
 - HTML parse: passed.
 - JavaScript syntax: passed.
-- Sitemap URLs: 35.
-- HTML index pages: 35.
+- Sitemap URLs: 215.
+- HTML index pages: 215.
 - Broken relative links: none found.
 - Missing SEO fields after Step 1: none found.
+
+
+## Step 6 Verification
+
+- HTML parse: passed.
+- JavaScript syntax: passed.
+- Sitemap URLs: 215.
+- HTML index pages: 215.
+- Template sitemap references: 0.
+- Broken relative links: none found.
