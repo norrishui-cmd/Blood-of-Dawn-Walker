@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+
+Sitemap: https://bloodofdawnwalker.cc/sitemap-index.xml
 Sitemap: https://bloodofdawnwalker.cc/sitemap.xml

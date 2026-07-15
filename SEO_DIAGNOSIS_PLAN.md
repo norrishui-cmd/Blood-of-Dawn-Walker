@@ -11,7 +11,7 @@ The site is a static GitHub/Vercel-ready guide package with 215 indexable HTML p
 - 215 real HTML pages and 215 sitemap URLs are aligned.
 - `robots.txt`, `sitemap.xml`, `CNAME`, `.nojekyll`, favicon files, manifest, and 404 page exist.
 - Every page has a title, meta description, canonical URL, H1, OG metadata, favicon links, and JSON-LD WebPage/Breadcrumb schema after Step 1.
-- Sitemap `lastmod` values are updated to `2026-07-14`.
+- Sitemap `lastmod` values are updated to `2026-07-15`.
 - Internal relative links checked cleanly.
 - External Steam image dependency was removed from CSS and replaced with original non-infringing `hero-art.svg`.
 
@@ -194,3 +194,23 @@ Execution notes:
 - HTML index pages: 215.
 - Template sitemap references: 0.
 - Broken relative links: none found.
+
+
+### Step 8 - SERP FAQ Enhancement, Executed 2026-07-15
+
+- Added visible FAQ sections to 26 high-intent pages.
+- Added FAQPage JSON-LD to the same pages for richer search understanding.
+- Focused questions on release status, platforms, systems, walkthrough trust, story spoilers, sources, and update policy.
+- Kept answers evidence-safe and avoided unverified quest, boss, ending, build, or achievement claims.
+- Updated sitemap `lastmod` values to `2026-07-15`.
+
+
+### Step 9 - Discovery Feed And Entity Layer, Executed 2026-07-15
+
+- Added `/feed.xml` with priority release, gameplay, walkthrough, story, FAQ, sources, updates, and index URLs.
+- Added `/llms.txt` as an AI-readable site map and editorial policy summary.
+- Added `/sitemap-index.xml` pointing to the primary sitemap.
+- Updated `robots.txt` to expose both the sitemap index and primary sitemap.
+- Added Atom feed discovery links to 216 indexable pages.
+- Added homepage VideoGame entity schema for The Blood of Dawnwalker with developer, publisher, platforms, genre, and release date context.
+- Normalized visible homepage separator text to avoid encoding display issues.
