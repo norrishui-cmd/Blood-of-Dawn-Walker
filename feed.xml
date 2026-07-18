@@ -4,70 +4,168 @@
   <link href="https://bloodofdawnwalker.cc/feed.xml" rel="self" />
   <link href="https://bloodofdawnwalker.cc/" />
   <id>https://bloodofdawnwalker.cc/</id>
-  <updated>2026-07-15T00:00:00Z</updated>
-  <subtitle>Priority release, gameplay, walkthrough, story, FAQ, source, and update pages for The Blood of Dawnwalker.</subtitle>
+  <updated>2026-07-17T00:00:00Z</updated>
+  <subtitle>Source-checked release, gameplay, story, FAQ, and system guides for The Blood of Dawnwalker.</subtitle>
   <entry>
-    <title>Blood of Dawnwalker Guide | Release Info, Builds, Quests, Bosses</title>
+    <title>The Blood of Dawnwalker Guide &amp; Wiki | Release, Time System, Builds</title>
     <link href="https://bloodofdawnwalker.cc/" />
     <id>https://bloodofdawnwalker.cc/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A launch-ready The Blood of Dawnwalker guide site MVP with release info, beginner planning, systems explainers, build templates, quest fields, boss database structure, and sitemap support for GSC.</summary>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Verified The Blood of Dawnwalker guides for the September 3 launch, 30-day time system, human and vampire abilities, combat, characters, editions, and PC requirements.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Release Date | September 3, 2026 Launch</title>
-    <link href="https://bloodofdawnwalker.cc/release-date/" />
-    <id>https://bloodofdawnwalker.cc/release-date/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>The Blood of Dawnwalker release date is September 3, 2026. Track confirmed platforms, launch timing, editions, and what players should watch before release.</summary>
+    <title>The Blood of Dawnwalker 30-Day Time Limit Explained</title>
+    <link href="https://bloodofdawnwalker.cc/30-days/" />
+    <id>https://bloodofdawnwalker.cc/30-days/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>A complete, spoiler-light explanation of Dawnwalker’s 30 in-game days: what advances time, whether exploration is safe, and what happens at the deadline.</summary>
+  </entry>
+  <entry>
+    <title>What Happens After 30 Days in The Blood of Dawnwalker?</title>
+    <link href="https://bloodofdawnwalker.cc/after-30-days/" />
+    <id>https://bloodofdawnwalker.cc/after-30-days/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Running out of time is not an automatic game over in The Blood of Dawnwalker. The story continues with consequences based on your choices and preparation.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Blood Hunger System Explained</title>
+    <link href="https://bloodofdawnwalker.cc/blood-hunger/" />
+    <id>https://bloodofdawnwalker.cc/blood-hunger/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>How Coen’s blood hunger meter works, what happens when it empties, and whether you can feed on animals instead of important NPCs.</summary>
+  </entry>
+  <entry>
+    <title>Does The Blood of Dawnwalker Have Character Creation?</title>
+    <link href="https://bloodofdawnwalker.cc/character-creation/" />
+    <id>https://bloodofdawnwalker.cc/character-creation/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>The Blood of Dawnwalker does not use a custom protagonist. Learn what can and cannot be customized when you play as Coen.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Combat System Explained</title>
+    <link href="https://bloodofdawnwalker.cc/combat/" />
+    <id>https://bloodofdawnwalker.cc/combat/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>How Dawnwalker combat works: directional sword attacks, blocking, parrying, Omni-Block, activation charges, human magic, and vampire powers.</summary>
+  </entry>
+  <entry>
+    <title>Compel Soul in The Blood of Dawnwalker Explained</title>
+    <link href="https://bloodofdawnwalker.cc/compel-soul/" />
+    <id>https://bloodofdawnwalker.cc/compel-soul/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Compel Soul is a human-form hex that lets Coen speak with the dead and unlock new information or quest branches. Here is what is confirmed.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Day and Night System Explained</title>
+    <link href="https://bloodofdawnwalker.cc/day-night-system/" />
+    <id>https://bloodofdawnwalker.cc/day-night-system/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Compare human Coen by day with vampire Coen by night, including magic, movement, feeding, quests, and different solutions.</summary>
+  </entry>
+  <entry>
+    <title>Does Exploration Use Time in The Blood of Dawnwalker?</title>
+    <link href="https://bloodofdawnwalker.cc/exploration-time-cost/" />
+    <id>https://bloodofdawnwalker.cc/exploration-time-cost/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Exploration does not drain Dawnwalker’s 30-day clock. Learn which activities spend time and how the game warns you before a cost.</summary>
+  </entry>
+  <entry>
+    <title>FAQ Guides | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/faq-guides/" />
+    <id>https://bloodofdawnwalker.cc/faq-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Concise answers for broad player questions such as open world scope, single-player status, co-op, genre comparisons, and buying decisions.</summary>
+  </entry>
+  <entry>
+    <title>How Long Is The Blood of Dawnwalker?</title>
+    <link href="https://bloodofdawnwalker.cc/game-length/" />
+    <id>https://bloodofdawnwalker.cc/game-length/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>The developers estimate 55–70 hours for a playthrough. Learn why the 30-day story limit is not the same as real-world playtime.</summary>
+  </entry>
+  <entry>
+    <title>Gameplay Guides | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/gameplay-guides/" />
+    <id>https://bloodofdawnwalker.cc/gameplay-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Combat, day and night systems, vampire powers, exploration, time pressure, stealth, feeding, skills, and survival planning.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Has Gone Gold</title>
+    <link href="https://bloodofdawnwalker.cc/gone-gold/" />
+    <id>https://bloodofdawnwalker.cc/gone-gold/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>The Blood of Dawnwalker went gold on July 15, 2026. Learn what gold status means for the September 3 release, physical copies, and a possible day-one patch.</summary>
+  </entry>
+  <entry>
+    <title>Blood of Dawnwalker Guide Index | All Guides</title>
+    <link href="https://bloodofdawnwalker.cc/guide-index/" />
+    <id>https://bloodofdawnwalker.cc/guide-index/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Complete index of Blood of Dawnwalker guide pages, organized for release prep, gameplay, walkthrough, story, technical, FAQ, and source topics.</summary>
+  </entry>
+  <entry>
+    <title>What Is Omni-Block in The Blood of Dawnwalker?</title>
+    <link href="https://bloodofdawnwalker.cc/omni-block/" />
+    <id>https://bloodofdawnwalker.cc/omni-block/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Omni-Block explained: how the accessible defense option differs from directional blocking, parrying, and free attacks in Dawnwalker combat.</summary>
   </entry>
   <entry>
     <title>Release Guides | Blood of Dawnwalker Guide</title>
     <link href="https://bloodofdawnwalker.cc/release-guides/" />
     <id>https://bloodofdawnwalker.cc/release-guides/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
+    <updated>2026-07-17T00:00:00Z</updated>
     <summary>Release date, platforms, editions, storefronts, regional timing, price, preload, and launch-week buying checks.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Platforms | PC, PS5, Xbox Series X|S</title>
-    <link href="https://bloodofdawnwalker.cc/platforms/" />
-    <id>https://bloodofdawnwalker.cc/platforms/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Confirmed The Blood of Dawnwalker platforms, console availability, PC status, and what is still unconfirmed for launch.</summary>
+    <title>Story Guides | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/story-guides/" />
+    <id>https://bloodofdawnwalker.cc/story-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Characters, Coen, Lunka, Brencis, choices, factions, relationships, lore, endings, and spoiler-controlled story tracking.</summary>
+  </entry>
+  <entry>
+    <title>Technical Guides | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/technical-guides/" />
+    <id>https://bloodofdawnwalker.cc/technical-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>System requirements, PC settings, console modes, accessibility, languages, controller support, patches, and known issue tracking.</summary>
+  </entry>
+  <entry>
+    <title>Updates And Sources | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/updates-guides/" />
+    <id>https://bloodofdawnwalker.cc/updates-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Official news, trailer tracking, review status, patch notes, editorial process, spoiler policy, and GSC sitemap notes.</summary>
+  </entry>
+  <entry>
+    <title>Walkthrough Guides | Blood of Dawnwalker Guide</title>
+    <link href="https://bloodofdawnwalker.cc/walkthrough-guides/" />
+    <id>https://bloodofdawnwalker.cc/walkthrough-guides/</id>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <summary>Beginner routes, quests, bosses, builds, achievements, collectibles, maps, missables, and completion planning.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker FAQ | Release, 30-Day Limit, Co-op &amp; Specs</title>
+    <link href="https://bloodofdawnwalker.cc/faq/" />
+    <id>https://bloodofdawnwalker.cc/faq/</id>
+    <updated>2026-07-16T00:00:00Z</updated>
+    <summary>40+ verified answers about The Blood of Dawnwalker: September 3 release date, platforms, 30-day time system, co-op, romance, editions, PC specs, gameplay, and more.</summary>
   </entry>
   <entry>
     <title>The Blood of Dawnwalker System Requirements | Updated PC Specs</title>
     <link href="https://bloodofdawnwalker.cc/system-requirements/" />
     <id>https://bloodofdawnwalker.cc/system-requirements/</id>
     <updated>2026-07-16T00:00:00Z</updated>
-    <summary>Track The Blood of Dawnwalker PC system requirements, expected spec categories, performance questions, and launch testing plan.</summary>
+    <summary>Latest The Blood of Dawnwalker PC requirements: minimum and recommended CPU, GPU, 16 GB RAM, 60 GB SSD, Windows 10, and remaining performance questions.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Editions | Standard, Eclipse, Collector Tracker</title>
-    <link href="https://bloodofdawnwalker.cc/editions/" />
-    <id>https://bloodofdawnwalker.cc/editions/</id>
-    <updated>2026-07-16T00:00:00Z</updated>
-    <summary>Compare The Blood of Dawnwalker editions, preorder status, bonuses, physical and digital options, and what buyers should verify before launch.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Preorder | Editions, Bonuses, Buyer&#x27;s Guide</title>
-    <link href="https://bloodofdawnwalker.cc/preorder/" />
-    <id>https://bloodofdawnwalker.cc/preorder/</id>
+    <title>The Blood of Dawnwalker Achievements | Trophy And Completion Guide</title>
+    <link href="https://bloodofdawnwalker.cc/achievements/" />
+    <id>https://bloodofdawnwalker.cc/achievements/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Track The Blood of Dawnwalker preorder status, editions, bonuses, pricing, storefronts, and safe buying advice before launch.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Gameplay | Open World, Choices, Systems</title>
-    <link href="https://bloodofdawnwalker.cc/gameplay/" />
-    <id>https://bloodofdawnwalker.cc/gameplay/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A practical The Blood of Dawnwalker gameplay guide covering open-world structure, day and night planning, combat, quests, vampire powers, and what still needs testing.</summary>
-  </entry>
-  <entry>
-    <title>Gameplay Guides | Blood of Dawnwalker Guide</title>
-    <link href="https://bloodofdawnwalker.cc/gameplay-guides/" />
-    <id>https://bloodofdawnwalker.cc/gameplay-guides/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Combat, day and night systems, vampire powers, exploration, time pressure, stealth, feeding, skills, and survival planning.</summary>
+    <summary>A The Blood of Dawnwalker achievements and trophies guide framework for missables, endings, bosses, collectibles, and completion planning.</summary>
   </entry>
   <entry>
     <title>The Blood of Dawnwalker Beginner Guide | First Hours And Launch Tips</title>
@@ -77,46 +175,18 @@
     <summary>A pre-release beginner guide framework for The Blood of Dawnwalker covering first-hour priorities, systems to learn, build choices, and spoiler-light planning.</summary>
   </entry>
   <entry>
-    <title>Walkthrough Guides | Blood of Dawnwalker Guide</title>
-    <link href="https://bloodofdawnwalker.cc/walkthrough-guides/" />
-    <id>https://bloodofdawnwalker.cc/walkthrough-guides/</id>
+    <title>The Blood of Dawnwalker Bosses | Boss Guide And Weakness Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/bosses/" />
+    <id>https://bloodofdawnwalker.cc/bosses/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Beginner routes, quests, bosses, builds, achievements, collectibles, maps, missables, and completion planning.</summary>
+    <summary>A The Blood of Dawnwalker boss guide structure for locations, phases, weaknesses, recommended builds, rewards, and launch-week testing.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Day And Night System | Time Mechanics Guide</title>
-    <link href="https://bloodofdawnwalker.cc/day-night-system/" />
-    <id>https://bloodofdawnwalker.cc/day-night-system/</id>
+    <title>Brencis in The Blood of Dawnwalker | Character And Boss Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/brencis/" />
+    <id>https://bloodofdawnwalker.cc/brencis/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A guide framework for The Blood of Dawnwalker day and night system, time pressure, quest windows, vampire powers, and testing priorities.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker 30 Days | Time Limit And Route Planning</title>
-    <link href="https://bloodofdawnwalker.cc/30-days/" />
-    <id>https://bloodofdawnwalker.cc/30-days/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A guide to The Blood of Dawnwalker 30-day premise, time pressure, quest routing, day and night decisions, and launch testing priorities.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Human And Vampire Forms Guide</title>
-    <link href="https://bloodofdawnwalker.cc/human-vampire/" />
-    <id>https://bloodofdawnwalker.cc/human-vampire/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Guide to The Blood of Dawnwalker human and vampire form planning, day and night differences, ability limits, quest routing, and combat roles.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Vampire Powers | Abilities And Tradeoffs</title>
-    <link href="https://bloodofdawnwalker.cc/vampire-powers/" />
-    <id>https://bloodofdawnwalker.cc/vampire-powers/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Track The Blood of Dawnwalker vampire powers, ability tradeoffs, day and night limits, combat use, story consequences, and launch testing priorities.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Combat Guide | Weapons, Abilities, Boss Prep</title>
-    <link href="https://bloodofdawnwalker.cc/combat/" />
-    <id>https://bloodofdawnwalker.cc/combat/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>The Blood of Dawnwalker combat guide framework for weapons, abilities, defensive play, boss preparation, common mistakes, and launch testing.</summary>
+    <summary>A spoiler-light Brencis guide for The Blood of Dawnwalker, tracking character role, vampire power, quests, boss possibilities, and story consequences.</summary>
   </entry>
   <entry>
     <title>The Blood of Dawnwalker Builds | Beginner Build Templates</title>
@@ -126,18 +196,11 @@
     <summary>Beginner build templates for The Blood of Dawnwalker, including survival, burst, stealth, and narrative-focused playstyle planning.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Bosses | Boss Guide And Weakness Tracker</title>
-    <link href="https://bloodofdawnwalker.cc/bosses/" />
-    <id>https://bloodofdawnwalker.cc/bosses/</id>
+    <title>The Blood of Dawnwalker Characters | Cast, NPCs, Factions</title>
+    <link href="https://bloodofdawnwalker.cc/characters/" />
+    <id>https://bloodofdawnwalker.cc/characters/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A The Blood of Dawnwalker boss guide structure for locations, phases, weaknesses, recommended builds, rewards, and launch-week testing.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Quests | Walkthrough And Choice Tracker</title>
-    <link href="https://bloodofdawnwalker.cc/quests/" />
-    <id>https://bloodofdawnwalker.cc/quests/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A The Blood of Dawnwalker quest guide structure for main quests, side quests, time windows, choices, rewards, and ending branches.</summary>
+    <summary>A spoiler-aware The Blood of Dawnwalker characters guide for the cast, important NPCs, factions, quest roles, and relationship tracking.</summary>
   </entry>
   <entry>
     <title>The Blood of Dawnwalker Choices And Consequences Guide</title>
@@ -147,32 +210,18 @@
     <summary>Track The Blood of Dawnwalker choices, consequences, irreversible decisions, quest outcomes, endings, and spoiler-safe decision planning.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Map | Regions, Routes, Collectibles</title>
-    <link href="https://bloodofdawnwalker.cc/world-map/" />
-    <id>https://bloodofdawnwalker.cc/world-map/</id>
+    <title>Coen in The Blood of Dawnwalker | Protagonist Guide</title>
+    <link href="https://bloodofdawnwalker.cc/coen/" />
+    <id>https://bloodofdawnwalker.cc/coen/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>The Blood of Dawnwalker map guide structure for regions, routes, resources, hidden locations, danger levels, collectibles, and exploration planning.</summary>
+    <summary>A spoiler-light guide to Coen, the protagonist of The Blood of Dawnwalker, including role, powers, story stakes, choices, and launch tracking.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker Story | Coen, Family, Vampire Conflict</title>
-    <link href="https://bloodofdawnwalker.cc/story/" />
-    <id>https://bloodofdawnwalker.cc/story/</id>
+    <title>The Blood of Dawnwalker Editions | Standard, Eclipse, Collector Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/editions/" />
+    <id>https://bloodofdawnwalker.cc/editions/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A spoiler-light The Blood of Dawnwalker story guide covering Coen, the dark fantasy premise, family stakes, vampire conflict, and story tracking after launch.</summary>
-  </entry>
-  <entry>
-    <title>Story Guides | Blood of Dawnwalker Guide</title>
-    <link href="https://bloodofdawnwalker.cc/story-guides/" />
-    <id>https://bloodofdawnwalker.cc/story-guides/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Characters, Coen, Lunka, Brencis, choices, factions, relationships, lore, endings, and spoiler-controlled story tracking.</summary>
-  </entry>
-  <entry>
-    <title>The Blood of Dawnwalker Characters | Cast, NPCs, Factions</title>
-    <link href="https://bloodofdawnwalker.cc/characters/" />
-    <id>https://bloodofdawnwalker.cc/characters/</id>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <summary>A spoiler-aware The Blood of Dawnwalker characters guide for the cast, important NPCs, factions, quest roles, and relationship tracking.</summary>
+    <summary>Compare The Blood of Dawnwalker editions, preorder status, bonuses, physical and digital options, and what buyers should verify before launch.</summary>
   </entry>
   <entry>
     <title>The Blood of Dawnwalker Endings | Choices And Branches Tracker</title>
@@ -182,11 +231,81 @@
     <summary>A spoiler-controlled The Blood of Dawnwalker endings guide framework for major choices, branch conditions, quest outcomes, and replay planning.</summary>
   </entry>
   <entry>
-    <title>The Blood of Dawnwalker FAQ | Release, 30-Day Limit, Co-op &amp; Specs</title>
-    <link href="https://bloodofdawnwalker.cc/faq/" />
-    <id>https://bloodofdawnwalker.cc/faq/</id>
-    <updated>2026-07-16T00:00:00Z</updated>
-    <summary>Frequently asked questions for The Blood of Dawnwalker, including release date, platforms, gameplay, story, vampire powers, multiplayer, and Game Pass status.</summary>
+    <title>Is The Blood of Dawnwalker on Game Pass? | Availability Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/game-pass/" />
+    <id>https://bloodofdawnwalker.cc/game-pass/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Track whether The Blood of Dawnwalker is on Xbox Game Pass, including confirmed platform status, subscription availability, and update notes.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Gameplay | Open World, Choices, Systems</title>
+    <link href="https://bloodofdawnwalker.cc/gameplay/" />
+    <id>https://bloodofdawnwalker.cc/gameplay/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>A practical The Blood of Dawnwalker gameplay guide covering open-world structure, day and night planning, combat, quests, vampire powers, and what still needs testing.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Human And Vampire Forms Guide</title>
+    <link href="https://bloodofdawnwalker.cc/human-vampire/" />
+    <id>https://bloodofdawnwalker.cc/human-vampire/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Guide to The Blood of Dawnwalker human and vampire form planning, day and night differences, ability limits, quest routing, and combat roles.</summary>
+  </entry>
+  <entry>
+    <title>Lunka in The Blood of Dawnwalker | Story And Quest Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/lunka/" />
+    <id>https://bloodofdawnwalker.cc/lunka/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>A spoiler-light Lunka guide for The Blood of Dawnwalker, tracking story role, family stakes, quests, choices, and ending consequences after launch.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Narrative Sandbox Guide</title>
+    <link href="https://bloodofdawnwalker.cc/narrative-sandbox/" />
+    <id>https://bloodofdawnwalker.cc/narrative-sandbox/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Understand The Blood of Dawnwalker narrative sandbox structure, quest freedom, time pressure, choices, story routes, and how to plan a first playthrough.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Platforms | PC, PS5, Xbox Series X|S</title>
+    <link href="https://bloodofdawnwalker.cc/platforms/" />
+    <id>https://bloodofdawnwalker.cc/platforms/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Confirmed The Blood of Dawnwalker platforms, console availability, PC status, and what is still unconfirmed for launch.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Preorder | Editions, Bonuses, Buyer&apos;s Guide</title>
+    <link href="https://bloodofdawnwalker.cc/preorder/" />
+    <id>https://bloodofdawnwalker.cc/preorder/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Track The Blood of Dawnwalker preorder status, editions, bonuses, pricing, storefronts, and safe buying advice before launch.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Quests | Walkthrough And Choice Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/quests/" />
+    <id>https://bloodofdawnwalker.cc/quests/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>A The Blood of Dawnwalker quest guide structure for main quests, side quests, time windows, choices, rewards, and ending branches.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Release Date | September 3, 2026 Launch</title>
+    <link href="https://bloodofdawnwalker.cc/release-date/" />
+    <id>https://bloodofdawnwalker.cc/release-date/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>The Blood of Dawnwalker release date is September 3, 2026. Track confirmed platforms, launch timing, editions, and what players should watch before release.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Romance Guide | Relationships Tracker</title>
+    <link href="https://bloodofdawnwalker.cc/romance/" />
+    <id>https://bloodofdawnwalker.cc/romance/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>A cautious The Blood of Dawnwalker romance and relationship guide framework for confirmed options, character routes, choices, and spoiler-safe updates.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Skills Guide | Ability Tree And Progression</title>
+    <link href="https://bloodofdawnwalker.cc/skills/" />
+    <id>https://bloodofdawnwalker.cc/skills/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>The Blood of Dawnwalker skills guide framework for ability trees, upgrades, build planning, respec rules, vampire powers, and launch testing.</summary>
   </entry>
   <entry>
     <title>Sources And Editorial Policy | Blood of Dawnwalker Guide</title>
@@ -196,6 +315,27 @@
     <summary>Sources and editorial policy for Blood of Dawnwalker Guide, including how confirmed facts, untested content, speculation, and post-launch updates are handled.</summary>
   </entry>
   <entry>
+    <title>The Blood of Dawnwalker Stealth And Feeding Guide</title>
+    <link href="https://bloodofdawnwalker.cc/stealth-feeding/" />
+    <id>https://bloodofdawnwalker.cc/stealth-feeding/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Guide framework for The Blood of Dawnwalker stealth, feeding, vampire power use, risk management, NPC consequences, and day-night route planning.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Story | Coen, Family, Vampire Conflict</title>
+    <link href="https://bloodofdawnwalker.cc/story/" />
+    <id>https://bloodofdawnwalker.cc/story/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>A spoiler-light The Blood of Dawnwalker story guide covering Coen, the dark fantasy premise, family stakes, vampire conflict, and story tracking after launch.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Trailers | Gameplay Details And Breakdown</title>
+    <link href="https://bloodofdawnwalker.cc/trailers/" />
+    <id>https://bloodofdawnwalker.cc/trailers/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>The Blood of Dawnwalker trailers hub for official videos, gameplay breakdowns, confirmed details, and what each trailer reveals.</summary>
+  </entry>
+  <entry>
     <title>The Blood of Dawnwalker Updates | News, Patches, Guide Changelog</title>
     <link href="https://bloodofdawnwalker.cc/updates/" />
     <id>https://bloodofdawnwalker.cc/updates/</id>
@@ -203,10 +343,17 @@
     <summary>The Blood of Dawnwalker updates hub for release news, guide changes, patch notes, official announcements, and post-launch content tracking.</summary>
   </entry>
   <entry>
-    <title>Blood of Dawnwalker Guide Index | All Guides</title>
-    <link href="https://bloodofdawnwalker.cc/guide-index/" />
-    <id>https://bloodofdawnwalker.cc/guide-index/</id>
+    <title>Vale Sangora Guide | The Blood of Dawnwalker Region And Map Hub</title>
+    <link href="https://bloodofdawnwalker.cc/vale-sangora/" />
+    <id>https://bloodofdawnwalker.cc/vale-sangora/</id>
     <updated>2026-07-15T00:00:00Z</updated>
-    <summary>Complete index of Blood of Dawnwalker guide pages, organized for release prep, gameplay, walkthrough, story, technical, FAQ, and source topics.</summary>
+    <summary>A The Blood of Dawnwalker Vale Sangora guide for region tracking, map routes, quests, bosses, resources, and exploration planning.</summary>
+  </entry>
+  <entry>
+    <title>The Blood of Dawnwalker Vampire Powers | Abilities And Tradeoffs</title>
+    <link href="https://bloodofdawnwalker.cc/vampire-powers/" />
+    <id>https://bloodofdawnwalker.cc/vampire-powers/</id>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <summary>Track The Blood of Dawnwalker vampire powers, ability tradeoffs, day and night limits, combat use, story consequences, and launch testing priorities.</summary>
   </entry>
 </feed>
