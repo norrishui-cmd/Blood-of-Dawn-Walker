@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bloodofdawnwalker.cc/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/30-days/</loc>
@@ -17,8 +17,20 @@
     <lastmod>2026-07-17</lastmod>
   </url>
   <url>
+    <loc>https://bloodofdawnwalker.cc/ambrus/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/ancient-undead/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
     <loc>https://bloodofdawnwalker.cc/beginner-guide/</loc>
     <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/blood-guards/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/blood-hunger/</loc>
@@ -73,12 +85,16 @@
     <lastmod>2026-07-15</lastmod>
   </url>
   <url>
+    <loc>https://bloodofdawnwalker.cc/enemy-types/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
     <loc>https://bloodofdawnwalker.cc/exploration-time-cost/</loc>
     <lastmod>2026-07-17</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/faq-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/faq/</loc>
@@ -94,7 +110,7 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/gameplay-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/gameplay/</loc>
@@ -106,11 +122,19 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/guide-index/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/howling-keep/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/human-vampire/</loc>
     <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/kobolds/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/lunka/</loc>
@@ -133,6 +157,10 @@
     <lastmod>2026-07-15</lastmod>
   </url>
   <url>
+    <loc>https://bloodofdawnwalker.cc/psoglavs/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
     <loc>https://bloodofdawnwalker.cc/quests/</loc>
     <lastmod>2026-07-15</lastmod>
   </url>
@@ -142,11 +170,15 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/release-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/romance/</loc>
     <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/shrikes-crag/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/skills/</loc>
@@ -162,11 +194,15 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/story-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/story/</loc>
     <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/svartrau/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/system-requirements/</loc>
@@ -174,7 +210,7 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/technical-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/trailers/</loc>
@@ -182,7 +218,7 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/updates-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/updates/</loc>
@@ -190,18 +226,26 @@
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/vale-sangora/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/vampire-powers/</loc>
     <lastmod>2026-07-15</lastmod>
   </url>
   <url>
+    <loc>https://bloodofdawnwalker.cc/vrakhiri/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
     <loc>https://bloodofdawnwalker.cc/walkthrough-guides/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://bloodofdawnwalker.cc/world-map/</loc>
     <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://bloodofdawnwalker.cc/xanthe/</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
 </urlset>
