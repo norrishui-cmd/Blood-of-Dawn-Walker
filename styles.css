@@ -829,3 +829,6 @@ td:first-child {
   line-height: 1.65;
   margin: 0;
 }
+
+/* Language dropdown */
+.language-menu{position:relative;margin-left:.35rem}.language-menu summary{cursor:pointer;list-style:none;padding:.55rem .8rem;border:1px solid rgba(255,255,255,.18);border-radius:.65rem;font-weight:700;white-space:nowrap}.language-menu summary::-webkit-details-marker{display:none}.language-options{position:absolute;right:0;top:calc(100% + .45rem);z-index:50;min-width:145px;padding:.4rem;background:#111820;border:1px solid rgba(255,255,255,.18);border-radius:.7rem;box-shadow:0 12px 30px rgba(0,0,0,.35)}.language-options a{display:block!important;padding:.55rem .65rem;border-radius:.4rem;text-decoration:none}.language-options a:hover{background:rgba(255,255,255,.09)}@media(max-width:760px){.language-menu{width:100%;margin:.4rem 0 0}.language-options{position:static;margin-top:.4rem}.language-menu summary{width:100%}}
