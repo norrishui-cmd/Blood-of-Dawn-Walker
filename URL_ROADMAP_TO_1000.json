@@ -1,0 +1,52 @@
+{
+  "targetIndexableUrls": 1000,
+  "currentRound": 11,
+  "strategy": "Controlled batches of no more than 80–100 candidates, with only concrete-answer pages entering the sitemap.",
+  "targetMix": {
+    "database": "60%",
+    "toolsAndComparisons": "15%",
+    "guides": "15%",
+    "editorialNews": "10%"
+  },
+  "phases": [
+    {
+      "phase": "Pre-release verified knowledge",
+      "target": 350,
+      "status": "in progress",
+      "examples": [
+        "characters",
+        "locations",
+        "systems",
+        "platforms",
+        "editions",
+        "languages"
+      ]
+    },
+    {
+      "phase": "Launch-week tested database",
+      "target": 650,
+      "status": "planned",
+      "examples": [
+        "quests",
+        "items",
+        "skills",
+        "bosses",
+        "maps",
+        "choices"
+      ]
+    },
+    {
+      "phase": "Post-launch combinations and tools",
+      "target": 1000,
+      "status": "planned",
+      "examples": [
+        "builds",
+        "route comparisons",
+        "ending matrices",
+        "collectible checklists",
+        "patch states"
+      ]
+    }
+  ],
+  "hardGate": "A page without a specific answer stays noindex and outside every sitemap."
+}

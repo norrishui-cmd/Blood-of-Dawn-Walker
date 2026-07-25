@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-07-25",
+  "htmlFilesChecked": 475,
+  "round11Candidates": 96,
+  "round11Indexable": 96,
+  "round11Clusters": {
+    "character": 7,
+    "location": 10,
+    "creature": 3,
+    "time": 14,
+    "lore": 12,
+    "gameplay": 10,
+    "language": 15,
+    "technical": 15,
+    "edition": 10
+  },
+  "sitemap": {
+    "en": 220,
+    "de": 45,
+    "es": 45,
+    "total": 310
+  },
+  "uniqueTitles": 474,
+  "uniqueDescriptions": 474,
+  "uniqueCanonicals": 474,
+  "warnings": [],
+  "errors": []
+}

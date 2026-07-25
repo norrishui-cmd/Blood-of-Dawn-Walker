@@ -1,0 +1,582 @@
+{
+  "generatedAt": "2026-07-25",
+  "candidateCount": 96,
+  "routes": [
+    {
+      "route": "/marat/",
+      "cluster": "character",
+      "title": "Marat Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-8-forging-connections"
+    },
+    {
+      "route": "/lacra/",
+      "cluster": "character",
+      "title": "Lacra Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-8-forging-connections"
+    },
+    {
+      "route": "/anca/",
+      "cluster": "character",
+      "title": "Anca Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-8-forging-connections"
+    },
+    {
+      "route": "/pieter/",
+      "cluster": "character",
+      "title": "Pieter Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/esme/",
+      "cluster": "character",
+      "title": "Esme Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/yanna/",
+      "cluster": "character",
+      "title": "Yanna Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/mirto/",
+      "cluster": "character",
+      "title": "Mirto Character Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/laslea-village/",
+      "cluster": "location",
+      "title": "Laslea Village Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/tantari-woods/",
+      "cluster": "location",
+      "title": "Tantari Woods Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora"
+    },
+    {
+      "route": "/svartrau-underground/",
+      "cluster": "location",
+      "title": "Svartrau Underground Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora"
+    },
+    {
+      "route": "/vale-sangora-silver-mines/",
+      "cluster": "location",
+      "title": "Vale Sangora Silver Mines",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora"
+    },
+    {
+      "route": "/primeval-forest/",
+      "cluster": "location",
+      "title": "Primeval Forest Biome",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-6-creating-world"
+    },
+    {
+      "route": "/vale-sangora-swamps/",
+      "cluster": "location",
+      "title": "Vale Sangora Swamps",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/ancient-civilization-ruins/",
+      "cluster": "location",
+      "title": "Ancient Civilization Ruins",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/remote-mountain-paths/",
+      "cluster": "location",
+      "title": "Remote Mountain Paths",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-6-creating-world"
+    },
+    {
+      "route": "/medieval-settlements/",
+      "cluster": "location",
+      "title": "Medieval Settlements Guide",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/vale-sangora-plains/",
+      "cluster": "location",
+      "title": "Vale Sangora Plains",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/uriashi/",
+      "cluster": "creature",
+      "title": "Uriashi in The Blood of Dawnwalker",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-7-beasts-monstrosities-illustrated"
+    },
+    {
+      "route": "/likhos/",
+      "cluster": "creature",
+      "title": "Likhos in The Blood of Dawnwalker",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-7-beasts-monstrosities-illustrated"
+    },
+    {
+      "route": "/tatzelwurms/",
+      "cluster": "creature",
+      "title": "Tatzelwurms in The Blood of Dawnwalker",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-7-beasts-monstrosities-illustrated"
+    },
+    {
+      "route": "/day-has-eight-time-units/",
+      "cluster": "time",
+      "title": "How Many Time Units Are in a Day?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/night-has-eight-time-units/",
+      "cluster": "time",
+      "title": "How Many Time Units Are in a Night?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/hourglass-time-icons/",
+      "cluster": "time",
+      "title": "Hourglass Time Icons Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/quest-action-time-costs/",
+      "cluster": "time",
+      "title": "Do Quest Actions Cost Time?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/dialogue-choice-time-costs/",
+      "cluster": "time",
+      "title": "Can Dialogue Choices Cost Time?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/skill-learning-time-cost/",
+      "cluster": "time",
+      "title": "Does Learning Skills Cost Time?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/free-roam-no-time-cost/",
+      "cluster": "time",
+      "title": "Does Free Roaming Cost Time?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/deadline-consequences/",
+      "cluster": "time",
+      "title": "What Happens When the 30 Days End?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/majority-before-deadline/",
+      "cluster": "time",
+      "title": "Can You Complete Most of the Game Before Day 30?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/blood-sacrament-deadline/",
+      "cluster": "time",
+      "title": "Why Does Coen Have 30 Days?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/day-night-restricted-quests/",
+      "cluster": "time",
+      "title": "Are Some Quests Limited to Day or Night?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/quest-order-freedom/",
+      "cluster": "time",
+      "title": "Can You Choose the Quest Order?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/no-golden-path/",
+      "cluster": "time",
+      "title": "Does Dawnwalker Have a Golden Main-Quest Path?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/time-as-resource/",
+      "cluster": "time",
+      "title": "How Time Works as a Resource",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/year-1347-setting/",
+      "cluster": "lore",
+      "title": "Why Is Dawnwalker Set in 1347?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/black-death-in-vale-sangora/",
+      "cluster": "lore",
+      "title": "The Black Death in Vale Sangora",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/blood-tax-explained/",
+      "cluster": "lore",
+      "title": "What Is the Blood Tax?",
+      "source": "https://blog.playstation.com/2026/04/28/choices-and-consequences-in-the-blood-of-dawnwalker-out-september-3/"
+    },
+    {
+      "route": "/vampire-blood-healing/",
+      "cluster": "lore",
+      "title": "Can Vampire Blood Heal Humans?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/skender-disappearance/",
+      "cluster": "lore",
+      "title": "What Happened to Skender Dragosti?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/vrakhiri-takeover/",
+      "cluster": "lore",
+      "title": "How Did the Vrakhiri Take Over Vale Sangora?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/coen-family-tree/",
+      "cluster": "lore",
+      "title": "Coen Family Members Explained",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/dawnwalker-condition/",
+      "cluster": "lore",
+      "title": "What Is a Dawnwalker?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/svartrau-silver-trade/",
+      "cluster": "lore",
+      "title": "Why Is Svartrau Rich?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora"
+    },
+    {
+      "route": "/shrikes-crag-massacre/",
+      "cluster": "lore",
+      "title": "What Happened at Shrike’s Crag?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora"
+    },
+    {
+      "route": "/self-contained-story/",
+      "cluster": "lore",
+      "title": "Is The Blood of Dawnwalker a Complete Story?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/dawnwalker-saga-future/",
+      "cluster": "lore",
+      "title": "What Is Next for the Dawnwalker Saga?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/wall-walking/",
+      "cluster": "gameplay",
+      "title": "Can Coen Walk on Walls?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/shadowstep/",
+      "cluster": "gameplay",
+      "title": "Shadowstep Ability Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/vampire-claw-combat/",
+      "cluster": "gameplay",
+      "title": "Vampire Claw Combat",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/human-sword-combat/",
+      "cluster": "gameplay",
+      "title": "Human Sword Combat",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/hex-magic/",
+      "cluster": "gameplay",
+      "title": "Hex Magic Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/execution-moves/",
+      "cluster": "gameplay",
+      "title": "Execution Moves Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/human-day-gameplay/",
+      "cluster": "gameplay",
+      "title": "Human-by-Day Gameplay",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/vampire-night-gameplay/",
+      "cluster": "gameplay",
+      "title": "Vampire-by-Night Gameplay",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/form-specific-access/",
+      "cluster": "gameplay",
+      "title": "Human and Vampire Access Rules",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/dynamic-world-reactions/",
+      "cluster": "gameplay",
+      "title": "How the World Reacts to Choices",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/english-language-support/",
+      "cluster": "language",
+      "title": "English Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/french-language-support/",
+      "cluster": "language",
+      "title": "French Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/german-language-support/",
+      "cluster": "language",
+      "title": "German Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/italian-language-support/",
+      "cluster": "language",
+      "title": "Italian Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/spanish-spain-language-support/",
+      "cluster": "language",
+      "title": "Spanish (Spain) Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/polish-language-support/",
+      "cluster": "language",
+      "title": "Polish Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/simplified-chinese-language-support/",
+      "cluster": "language",
+      "title": "Simplified Chinese Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/traditional-chinese-language-support/",
+      "cluster": "language",
+      "title": "Traditional Chinese Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/japanese-language-support/",
+      "cluster": "language",
+      "title": "Japanese Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/korean-language-support/",
+      "cluster": "language",
+      "title": "Korean Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/czech-language-support/",
+      "cluster": "language",
+      "title": "Czech Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/hungarian-language-support/",
+      "cluster": "language",
+      "title": "Hungarian Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/portuguese-brazil-language-support/",
+      "cluster": "language",
+      "title": "Portuguese (Brazil) Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/spanish-latin-america-language-support/",
+      "cluster": "language",
+      "title": "Spanish (Latin America) Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/turkish-language-support/",
+      "cluster": "language",
+      "title": "Turkish Language Support",
+      "source": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+    },
+    {
+      "route": "/pc-minimum-requirements/",
+      "cluster": "technical",
+      "title": "PC Minimum Requirements",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/pc-recommended-requirements/",
+      "cluster": "technical",
+      "title": "PC Recommended Requirements",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/windows-10-requirement/",
+      "cluster": "technical",
+      "title": "Windows 10 Support",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/directx-12-requirement/",
+      "cluster": "technical",
+      "title": "DirectX 12 Requirement",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/16gb-ram-requirement/",
+      "cluster": "technical",
+      "title": "Is 16 GB RAM Enough?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/60gb-storage-requirement/",
+      "cluster": "technical",
+      "title": "How Much Storage Does Dawnwalker Need?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/gtx-1060-support/",
+      "cluster": "technical",
+      "title": "GTX 1060 Support",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/rx-580-support/",
+      "cluster": "technical",
+      "title": "Radeon RX 580 Support",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/rtx-4060-support/",
+      "cluster": "technical",
+      "title": "RTX 4060 Recommended Specs",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/rx-7600-xt-support/",
+      "cluster": "technical",
+      "title": "Radeon RX 7600 XT Recommended Specs",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/intel-arc-b580-support/",
+      "cluster": "technical",
+      "title": "Intel Arc B580 Recommended Specs",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/xbox-play-anywhere/",
+      "cluster": "technical",
+      "title": "Xbox Play Anywhere Support",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/xbox-cloud-gaming/",
+      "cluster": "technical",
+      "title": "Xbox Cloud Gaming Support",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/xbox-on-pc/",
+      "cluster": "technical",
+      "title": "Xbox on PC Version",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/current-generation-platforms/",
+      "cluster": "technical",
+      "title": "Current-Generation Platforms",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/standard-edition/",
+      "cluster": "edition",
+      "title": "Standard Edition Contents",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/deluxe-edition/",
+      "cluster": "edition",
+      "title": "Is There a Deluxe Edition?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/digital-edition/",
+      "cluster": "edition",
+      "title": "Digital Edition Options",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/collector-edition/",
+      "cluster": "edition",
+      "title": "Collector’s Edition Contents",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/eclipse-edition-contents/",
+      "cluster": "edition",
+      "title": "Eclipse Edition Contents",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/day-one-edition-contents/",
+      "cluster": "edition",
+      "title": "Day 1 Edition Contents",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/digital-world-compendium/",
+      "cluster": "edition",
+      "title": "Digital World Compendium",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/digital-comic-book/",
+      "cluster": "edition",
+      "title": "Digital Comic Book",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/digital-soundtrack/",
+      "cluster": "edition",
+      "title": "Digital Soundtrack",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    },
+    {
+      "route": "/coen-figurine/",
+      "cluster": "edition",
+      "title": "Coen Figurine Size and Edition",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker"
+    }
+  ]
+}
