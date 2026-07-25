@@ -1,6 +1,6 @@
 # Blood of Dawnwalker Guide GitHub Package
 
-This is an English static site package for GitHub Pages. It includes `sitemap.xml` and `robots.txt` so the site can be submitted to Google Search Console immediately after deployment.
+This is a multilingual static site package for GitHub Pages. Round 13 contains 393 quality-approved sitemap URLs across 15 official-language entry points, with deeper English, German, and Spanish clusters.
 
 ## Files
 
@@ -41,7 +41,9 @@ This is an English static site package for GitHub Pages. It includes `sitemap.xm
 - `lunka/`: Story character and quest tracker
 - `styles.css`: Site styling
 - `app.js`: Guide search, category filters, and saved checklist state
-- `sitemap.xml`: Sitemap for Google Search Console
+- `sitemap-index.xml`: Sitemap index for all language sitemaps
+- `sitemap-en.xml`: English quality-approved URLs
+- `sitemap.xml`: Combined compatibility sitemap
 - `robots.txt`: Crawl rules with sitemap declaration
 - `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`: Original non-infringing site icons
 - `hero-art.svg`: Original non-infringing dark fantasy hero background
@@ -81,15 +83,18 @@ The production URL has already been written into:
 4. Go to `Sitemaps` and submit:
 
 ```text
-sitemap.xml
-```
-
-Submit this sitemap URL:
-
-```text
-https://bloodofdawnwalker.cc/sitemap.xml
+https://bloodofdawnwalker.cc/sitemap-index.xml
 ```
 
 ## Content Notes
 
-The Blood of Dawnwalker is still pre-release. This site marks untested content as `TBA`, `Needs Testing`, or `Template` to avoid misleading players. After launch, add dedicated pages for quests, bosses, builds, maps, achievements, and patches, then include those URLs in `sitemap.xml`.
+The Blood of Dawnwalker is still pre-release. The sitemap contains only pages with a concrete answer supported by official material or first-party hands-on evidence. Another 165 live placeholders remain `noindex, follow`. After launch, expand tested quests, bosses, items, skills, maps, choices, achievements, and patches in controlled batches; do not index a route until it resolves its target query.
+
+## Round 13
+
+- 291 English sitemap URLs
+- 393 all-language sitemap URLs
+- 63 new answer pages and 8 new topic hubs
+- 8 distinct page models: prologue, combat, world reactivity, lore, family, editions, PC requirements, and development
+- Language-support hub upgraded to a 15-language interface/subtitle/full-audio matrix
+- Full-site checks cover metadata uniqueness, canonicals, structured data, internal links, hreflang, AdSense, and sitemap/noindex conflicts

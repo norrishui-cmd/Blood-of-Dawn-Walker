@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-25",
+  "htmlFilesChecked": 558,
+  "round13": {
+    "leaves": 63,
+    "hubs": 8,
+    "total": 71
+  },
+  "sitemap": {
+    "en": 291,
+    "total": 393
+  },
+  "minimumVisibleWordsInNewPages": 375,
+  "uniqueNewTitles": 71,
+  "uniqueNewDescriptions": 71,
+  "uniqueNewCanonicals": 71,
+  "brokenInternalLinks": 0,
+  "noindexPages": 165,
+  "warnings": [],
+  "errors": []
+}

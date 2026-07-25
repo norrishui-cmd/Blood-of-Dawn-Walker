@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-25",
+  "liveHtmlFiles": 558,
+  "indexableHtml": 393,
+  "noindexHtml": 165,
+  "sitemap": {
+    "en": 291,
+    "allLanguages": 393
+  },
+  "uniqueMetadata": {
+    "titles": 557,
+    "descriptions": 557,
+    "canonicals": 557
+  },
+  "adsenseFiles": 558,
+  "languageDropdownFiles": 558,
+  "jsonLdBlocks": 549,
+  "officialLanguageHomes": 15,
+  "errors": [],
+  "warnings": []
+}
