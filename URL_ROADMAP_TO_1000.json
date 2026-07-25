@@ -1,8 +1,8 @@
 {
   "targetIndexableUrls": 1000,
-  "currentRound": 13,
-  "currentIndexableUrls": 393,
-  "remainingToTarget": 607,
+  "currentRound": 14,
+  "currentIndexableUrls": 425,
+  "remainingToTarget": 575,
   "strategy": "Controlled batches of no more than 80–100 candidates, with only concrete-answer pages entering the sitemap.",
   "targetMix": {
     "database": "60%",
@@ -14,7 +14,7 @@
     {
       "phase": "Pre-release verified knowledge",
       "target": 350,
-      "status": "completed at 393 total indexable URLs",
+      "status": "completed and extended to 425 total indexable URLs",
       "examples": [
         "characters",
         "locations",

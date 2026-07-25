@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-07-25",
+  "round": 14,
+  "htmlFilesChecked": 595,
+  "indexableCanonicalUrls": 425,
+  "noindexHtmlPages": 170,
+  "sitemapUrls": 425,
+  "newLocalizedPages": 32,
+  "locales": [
+    "fr",
+    "it",
+    "pl",
+    "ja"
+  ],
+  "routesPerLocale": 8,
+  "styleParity": {
+    "sharedStylesheet": true,
+    "requiredEnglishComponentClasses": [
+      "site-header",
+      "article-main",
+      "article-hero",
+      "article-body",
+      "article-content",
+      "article-aside",
+      "verification-box",
+      "related-grid",
+      "faq-list"
+    ],
+    "localizedHomeClasses": [
+      "site-header",
+      "hero",
+      "hero-media",
+      "hero-overlay",
+      "hero-content",
+      "hero-actions",
+      "fact-strip",
+      "research",
+      "band",
+      "section-heading",
+      "insight-grid",
+      "guide-grid",
+      "guide-card",
+      "site-footer"
+    ],
+    "homepagesPassing": 4,
+    "articlePagesPassing": 32
+  },
+  "contentDepth": {
+    "latinMinimumWords": 423,
+    "japaneseMinimumCharacters": 1480
+  },
+  "duplicateCanonicalCount": 0,
+  "duplicateTitleCount": 0,
+  "duplicateDescriptionCount": 0,
+  "brokenInternalLinks": 0,
+  "errors": []
+}

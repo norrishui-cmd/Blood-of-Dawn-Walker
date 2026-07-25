@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-25",
+  "round": 14,
+  "focus": "Localized cluster depth with English-style parity",
+  "locales": [
+    "fr",
+    "it",
+    "pl",
+    "ja"
+  ],
+  "routesPerLocale": [
+    "release-date",
+    "30-days",
+    "day-night-system",
+    "combat",
+    "blood-hunger",
+    "characters",
+    "vale-sangora",
+    "system-requirements"
+  ],
+  "addedIndexableUrls": 32,
+  "styleContract": {
+    "stylesheet": "/styles.css",
+    "requiredClasses": [
+      "site-header",
+      "article-main",
+      "article-hero",
+      "article-body",
+      "article-content",
+      "article-aside",
+      "verification-box",
+      "related-grid",
+      "faq-list"
+    ],
+    "navigation": "Same responsive header and 15-language dropdown as English pages"
+  },
+  "evidence": [
+    "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker",
+    "https://blog.playstation.com/2026/07/07/the-blood-of-dawnwalker-unique-time-driven-quest-system-and-player-choice-detailed/",
+    "https://en.bandainamcoent.eu/dawnwalker/news/the-blood-of-dawnwalker-gameplay-reveal-recap",
+    "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/",
+    "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-8-forging-connections",
+    "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-5-secrets-of-vale-sangora",
+    "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
+  ]
+}

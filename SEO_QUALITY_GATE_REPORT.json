@@ -1,8 +1,8 @@
 {
   "generatedAt": "2026-07-18",
-  "htmlRoutesScanned": 486,
-  "placeholderRoutesNoindexed": 165,
-  "indexableCanonicalUrls": 321,
+  "htmlRoutesScanned": 589,
+  "placeholderRoutesNoindexed": 164,
+  "indexableCanonicalUrls": 425,
   "placeholderRoutes": [
     "/accessibility/",
     "/achievement-list/",
@@ -79,7 +79,6 @@
     "/is-soulslike/",
     "/keyboard-mouse/",
     "/known-issues/",
-    "/language-support/",
     "/late-game-skills/",
     "/lore/",
     "/lunka-quests/",

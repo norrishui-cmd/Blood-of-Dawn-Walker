@@ -5,12 +5,38 @@
     "es": 12
   },
   "sitemapUrls": {
-    "en": 123,
-    "de": 39,
-    "es": 39,
-    "combined": 201
+    "en": 291,
+    "de": 45,
+    "es": 45,
+    "combined": 425
   },
   "uniqueLocalizedTitles": 24,
   "uniqueLocalizedDescriptions": 24,
-  "errors": []
+  "errors": [
+    "/de/ missing es",
+    "/de/release-date missing es",
+    "/de/30-days missing es",
+    "/de/day-night-system missing es",
+    "/de/combat missing es",
+    "/de/system-requirements missing es",
+    "/de/blood-hunger missing es",
+    "/de/vale-sangora missing es",
+    "/es/ missing es",
+    "/es/release-date missing es",
+    "/es/30-days missing es",
+    "/es/day-night-system missing es",
+    "/es/combat missing es",
+    "/es/system-requirements missing es",
+    "/es/blood-hunger missing es",
+    "/es/vale-sangora missing es",
+    "/ missing reciprocal es",
+    "/release-date missing reciprocal es",
+    "/30-days missing reciprocal es",
+    "/day-night-system missing reciprocal es",
+    "/combat missing reciprocal es",
+    "/system-requirements missing reciprocal es",
+    "/blood-hunger missing reciprocal es",
+    "/vale-sangora missing reciprocal es",
+    "combined sitemap count mismatch"
+  ]
 }
