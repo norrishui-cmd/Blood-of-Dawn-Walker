@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-07-18",
+  "localizedPages": {
+    "de": 12,
+    "es": 12
+  },
+  "sitemapUrls": {
+    "en": 123,
+    "de": 39,
+    "es": 39,
+    "combined": 201
+  },
+  "uniqueLocalizedTitles": 24,
+  "uniqueLocalizedDescriptions": 24,
+  "errors": []
+}
