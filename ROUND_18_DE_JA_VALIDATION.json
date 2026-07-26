@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-07-26",
+  "round": 18,
+  "german": {
+    "upgradedPages": 15,
+    "newPages": 1,
+    "checkedPages": 16,
+    "minimumVisibleWords": 352
+  },
+  "japanese": {
+    "newDetailPages": 16,
+    "newHubPages": 6,
+    "checkedDetailPages": 16,
+    "minimumJapaneseCharacters": 867
+  },
+  "sharedEnglishComponentContract": {
+    "articleClasses": [
+      "site-header",
+      "article-main",
+      "article-hero",
+      "article-body",
+      "article-content",
+      "article-aside",
+      "verification-box",
+      "related-grid",
+      "faq-list",
+      "site-footer"
+    ],
+    "hubClasses": [
+      "site-header",
+      "hero",
+      "hero-media",
+      "hero-overlay",
+      "hero-content",
+      "hero-actions",
+      "fact-strip",
+      "research",
+      "band",
+      "section-heading",
+      "guide-grid",
+      "guide-card",
+      "site-footer"
+    ],
+    "sharedStylesheet": true,
+    "responsiveRules": true
+  },
+  "reciprocalHreflang": [
+    "en",
+    "de",
+    "ja"
+  ],
+  "errors": []
+}
