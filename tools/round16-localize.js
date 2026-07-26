@@ -37,6 +37,10 @@ const equivalentLocales = [
   ["ja", "ja"],
   ["ko", "ko"],
   ["pt-br", "pt-BR"],
+  ["cs", "cs"],
+  ["hu", "hu"],
+  ["es-419", "es-419"],
+  ["tr", "tr"],
 ];
 
 const routes = [
@@ -416,6 +420,344 @@ locales["pt-br"] = {
   },
 };
 
+locales.cs = {
+  htmlLang: "cs",
+  locale: "cs_CZ",
+  label: "Čeština",
+  siteTitle: "The Blood of Dawnwalker – český průvodce a wiki",
+  siteDescription: "České průvodce ověřené z oficiálních zdrojů: datum vydání, systém 30 dnů, den a noc, boj, hlad po krvi, postavy, svět a PC požadavky.",
+  nav: ["Vydání", "30 dnů", "Boj", "Postavy"],
+  ui: {
+    verified: "Ověřená odpověď", quick: "Rychlá odpověď", confirmed: "Co je oficiálně potvrzeno", player: "Co to znamená pro hráče",
+    boundary: "Meze ověření", related: "Související průvodce", sources: "Oficiální zdroje", faq: "Časté otázky",
+    home: "Česká hlavní stránka", all: "Otevřít celý průvodce", sourceBacked: "Doloženo zdrojem", updated: "Ověřeno 26. července 2026",
+    methodology: "Do sitemap zařazujeme jen stránky, které přímo odpovídají na hráčskou otázku a lze je ověřit v oficiálním nebo first-party materiálu. Čísla, výsledky voleb a výkon, které závisí na finální verzi, nevydáváme za fakta. Po vydání obsah aktualizujeme pouze podle opakovatelných testů a oficiálních poznámek k aktualizacím.",
+    notPlaceholder: "Tato stránka není prázdná šablona čekající na vydání. Už nyní odpovídá na otázku v názvu a odděluje známá fakta od detailů, které bude nutné otestovat ve finální verzi.",
+  },
+  home: {
+    eyebrow: "Vydání 3. září 2026 · hra dosáhla gold statusu", intro: "Česká databáze pro hráče, která jasně odděluje oficiální oznámení, first-party ukázky a údaje čekající na ověření ve finální verzi.",
+    available: "Základní české průvodce", availableCopy: "Osm tematických stránek používá stejné vizuální komponenty, informační hierarchii a responzivní rozvržení jako anglická verze, včetně přímé odpovědi, hranic ověření, FAQ a souvisejících odkazů.",
+    genre: "Žánr", platforms: "Platformy", developer: "Vývojář", release: "Vydání",
+    facts: "Tři důležitá fakta před vydáním",
+    card1: ["Systém času", "Průzkum nespotřebovává limit", "Třicet dnů není časovač v reálném čase. Čas posouvají jen významné akce označené přesýpacími hodinami, některé rozhovory a učení."],
+    card2: ["Dvě podoby", "Ve dne člověk, v noci upír", "Lidská podoba používá meč a runové hexy; upírská získává drápy, sání krve a nadpřirozený pohyb."],
+    card3: ["PC", "Nejméně 16 GB RAM a SSD", "Oficiální minimum uvádí GTX 1060 nebo RX 580, Windows 10, DirectX 12 a 60 GB prostoru na SSD."],
+  },
+  pages: {
+    "release-date": {
+      title: "Datum vydání a platformy", description: "Potvrzené vydání 3. září 2026 pro PC, PS5 a Xbox Series, gold status a dosud neoznámené přednačtení a přesný čas odemčení.",
+      quick: "The Blood of Dawnwalker vyjde celosvětově 3. září 2026 na PC, PlayStation 5 a Xbox Series X|S. Dne 15. července vývojáři oznámili gold status, ale přesný čas odemčení podle regionu, termín přednačtení ani velikost aktualizace prvního dne zveřejněny nebyly.",
+      facts: ["Hru vyvíjí Rebel Wolves a vydává Bandai Namco Entertainment.", "Verze pro PS4, Xbox One ani Nintendo Switch nejsou potvrzené.", "Steam může v některých časových pásmech ukázat 2. září; může jít o převod času obchodu, nikoli o změnu globálního data."],
+      player: "Před nákupem zkontrolujte region, platformu a obsah edice. Datum automaticky převedené odpočtem v obchodě nepovažujte za oficiální globální čas odemčení. Gold status znamená, že hlavní sestavení vstoupilo do výroby, nikoli že hra nebude mít aktualizaci prvního dne.",
+      boundary: "Oficiální tabulka časů podle regionů, okno přednačtení, finální velikost stahování, obsah prvního patche a tempo dodávek fyzických kopií nejsou zveřejněny. Tyto údaje zde neodhadujeme.",
+      faqQ: "Kdy přesně hra vyjde?", faqA: "Oficiální globální datum je 3. září 2026; některé obchody mohou kvůli časovému pásmu zobrazit 2. září.", source: "release",
+    },
+    "30-days": {
+      title: "Jak funguje systém 30 dnů", description: "Proč 30 dnů a nocí není odpočet v reálném čase, které akce posouvají čas a proč konec lhůty není automatický Game Over.",
+      quick: "Coen má třicet herních dnů a třicet nocí na pokus o záchranu rodiny, čas však při volném průzkumu nepřetržitě neběží. Spotřebují jej pouze některá významná rozhodnutí a rozhraní před potvrzením ukáže cenu ikonou přesýpacích hodin.",
+      facts: ["Běžný průzkum, čtení a pozorování okolí termín automaticky neposouvají.", "Úkol, zásadní rozhovor, naučení schopnosti nebo jiný významný závazek může stát jednu či více časových jednotek.", "Vypršení lhůty není jednoduchý automatický Game Over; vyvolá následky podle hráčových voleb a dokončeného obsahu."],
+      player: "S časem zacházejte jako s příběhovým zdrojem, ne jako s časovačem pro speedrun. Před potvrzením akce zkontrolujte cenu u přesýpacích hodin a zvažte, zda odpovídá aktuální rodinné, osobní nebo frakční trase. Bloudění po mapě samo o sobě limit nevyčerpá.",
+      boundary: "Přesná cena každého úkolu, přeskočitelný obsah, úplná matice následků a optimální trasa vyžadují testování vydané hry. Před vydáním nelze vytvořit spolehlivý kompletní harmonogram.",
+      faqQ: "Spotřebovává volný průzkum limit 30 dnů?", faqA: "Ne. Podle oficiálního vysvětlení čas posouvají pouze jasně označené významné akce.", source: "time",
+    },
+    "day-night-system": {
+      title: "Den a noc: lidská a upírská podoba", description: "Jak se denní člověk a noční upír liší v boji, pohybu, magii a možnostech řešení úkolů.",
+      quick: "Den a noc nemění jen osvětlení. Ve dne je Coen člověkem se šermem a runovými hexy; v noci se mění v upíra s drápy, sáním krve, vyšší silou a nadpřirozeným pohybem. Stejné místo proto může mít jiný vstup i řešení.",
+      facts: ["Lidská podoba používá zbraně a hexy sesílané pomocí run vyrytých do těla.", "Upírská podoba má pohybové schopnosti Clawride a Shadowstep a ovlivňuje ji hlad po krvi.", "Některé aktivity jsou dostupné jen v určitou denní dobu a volba dne či noci mění nástroje i rizika."],
+      player: "Nejprve určete, zda cíl vyžaduje rozhovor, šerm, magii nebo vertikální pohyb. K místu bez zjevného vstupu může v noci vést jiná cesta, hlad a nepřátelské reakce však mohou současně zvýšit riziko.",
+      boundary: "Úplná časová omezení, pořadí odemykání schopností, pravidla přeměny a všechny rozdíly v úkolech dosud nebyly zveřejněny. Několik ukázek z preview proto nepovažujeme za kompletní tabulku tras.",
+      faqQ: "Lze kdykoli přepnout mezi člověkem a upírem?", faqA: "Potvrzeno je svázání podoby s dnem a nocí; možnost volného přepnutí kdekoli oznámena nebyla.", source: "preview",
+    },
+    "combat": {
+      title: "Boj: směrové útoky, blok a parírování", description: "Reálný boj ve čtyřech směrech, blok za výdrž, směrové parírování, Omni-Block a rozdíly mezi lidskou a upírskou podobou.",
+      quick: "Boj probíhá v reálném čase se čtyřmi směry útoku a obrany. Hráč čte indikátor směru nepřítele a volí odpovídající útok nebo kryt. Trvalý blok spotřebovává výdrž, zatímco správně načasované směrové parírování je účinnější.",
+      facts: ["Čtyři směry slouží pro vlastní útoky i pro čtení přicházejících úderů.", "Obyčejný blok je bezpečnější, ale stojí výdrž; parírování vyžaduje přesnější směr a načasování.", "Volitelný Omni-Block snižuje nároky na směrové ovládání, ale není automatickým parírováním ani nezranitelností."],
+      player: "U nového protivníka nejprve použijte obyčejný blok a naučte se jeho pohyby, teprve potom šetřete výdrž parírováním. Lidská podoba zdůrazňuje meč a hexy, upírská drápy a pohyb, takže jedna taktika nemusí fungovat ve všech časech.",
+      boundary: "Přesná okna, vzorce poškození, hodnoty výdrže, násobiče obtížnosti a nejlepší kombinace vyžadují opakované testování finální verze. Tvůrci hru označují jako příběhové akční RPG, nikoli oficiálně jako soulslike.",
+      faqQ: "Je boj tahový?", faqA: "Ne. Jde o akční boj v reálném čase se směrovými indikátory útoku a obrany.", source: "preview",
+    },
+    "blood-hunger": {
+      title: "Hlad po krvi, krmení a ztráta kontroly", description: "Jak hlad upírské podoby ovlivňuje dialog a krmení, riziko ztráty kontroly nad Coenem a možnost využít zvířata.",
+      quick: "Coenova upírská podoba musí řídit hlad po krvi. Hlad ovlivňuje dostupné dialogy a chování; v kritickém stavu může hráč ztratit úplnou kontrolu nad Coenem. Volba zdroje krve je proto zdrojovým, příběhovým i morálním rozhodnutím.",
+      facts: ["Rozdílné následky může mít krmení na zvířeti, nepříteli nebo důležité NPC.", "Oficiální preview zmiňuje zvířata jako alternativu, která může zabránit zranění důležitých lidí.", "Extrémní hlad může změnit scénu a míru kontroly, ne pouze snížit číselnou hodnotu."],
+      player: "Před důležitým rozhovorem nebo vstupem do obydleného místa zkontrolujte hlad a zajistěte bezpečný zdroj. Zranění či zabití pojmenované NPC může odstranit službu, vztah nebo úkol, proto nerozhodujte jen podle okamžité bojové výhody.",
+      boundary: "Přesné prahy, množství krve z jednotlivých cílů, vliv dovedností a všechny výsledky ztráty kontroly nebyly zveřejněny. Po vydání je bude nutné opakovaně ověřit při stejné obtížnosti a stavu.",
+      faqQ: "Musí Coen pít lidskou krev?", faqA: "Současné materiály uvádějí zvířata jako možnou alternativu, úplná pravidla však musí potvrdit finální hra.", source: "preview",
+    },
+    "characters": {
+      title: "Potvrzené postavy a vztahy", description: "Přehled Coena, jeho rodiny, Brencise, Vrakhiri a zveřejněných spojenců bez spoilerů a bez zaměňování biografie za neznámé konce.",
+      quick: "Coen je mladík žijící roku 1347 ve Vale Sangora, který se po proměně v Dawnwalkera snaží zachránit rodinu. Hlavní konflikt se soustředí na upířího vládce Brencise a nadvládu Vrakhiri; oficiálně byli představeni také Anca, Bakir, Xanthe a Ambrus.",
+      facts: ["Časový limit rodiny pohání hlavní příběh, ale každý člen má vlastní minulost a reakce.", "Brencis je představen jako někdejší římský senátor a upíří vládce; jeho následovníci pocházejí z různých dob a kultur.", "Anca je bylinkářka z Lasley spojená s Coenovým učením magie a osobním příběhem."],
+      player: "Rozlišujte mezi oficiální biografií, vztahem skutečně ukázaným v preview a teorií fanoušků. Volby mohou měnit přežití, služby, spojenectví i další úkoly, proto před vydáním nikoho neoznačujeme za jistou oběť ani pevného společníka.",
+      boundary: "Úplný seznam společníků, romancí, věrnostních úkolů, zabitelných postav a přeživších pro jednotlivé konce nebyl zveřejněn. Stránka uvádí jen ověřitelnou identitu a vztahy.",
+      faqQ: "Je Coen plnohodnotný upír?", faqA: "Je Dawnwalker: ve dne člověk a v noci bytost s upírskou podobou a schopnostmi.", source: "characters",
+    },
+    "vale-sangora": {
+      title: "Vale Sangora: svět, místa a prostředí", description: "Údolí v Karpatech roku 1347, Svartrau, Howling Keep, Shrike’s Crag, dynamické počasí a společenské uspořádání.",
+      quick: "Vale Sangora je otevřený svět hry, fiktivní karpatské údolí 14. století poznamenané černou smrtí, feudálním tlakem a nadvládou Vrakhiri. Mezi zveřejněná místa patří Laslea, město Svartrau, Howling Keep a Shrike’s Crag.",
+      facts: ["Svět zahrnuje osady, divočinu, mokřady, hory, ruiny a území ovládaná upíry.", "Počasí a mlha mohou měnit viditelnost a riziko cestování, nejen atmosféru.", "NPC pokračují ve vlastních činnostech a smrt pojmenované osoby může odstranit obchod, kovárnu nebo úkol."],
+      player: "Užitečný mapový průvodce musí spojovat místo s denní dobou, způsobem vstupu, NPC a stavem světa, ne pouze vypsat souřadnice. Schopnosti se mezi dnem a nocí mění a některé volby mohou trvale odebrat služby.",
+      boundary: "Úplná velikost mapy, všechny body rychlého cestování, souřadnice sběratelských předmětů, obnova nepřátel a úrovně oblastí nebyly oznámeny. Před vydáním nevytváříme smyšlenou databázi.",
+      faqQ: "Je Vale Sangora skutečné místo?", faqA: "Jde o fiktivní údolí inspirované historií a kulturou střední Evropy a Karpat, nikoli o jedno skutečné místo.", source: "world",
+    },
+    "system-requirements": {
+      title: "Systémové požadavky pro PC", description: "Oficiální minimum a doporučení, 16 GB RAM, 60GB SSD, GTX 1060/RX 580 a doporučená třída RTX 4060/RX 7600 XT.",
+      quick: "Minimum vyžaduje Windows 10, DirectX 12, Core i5-11400F nebo Ryzen 7 2700X, 16 GB RAM, GTX 1060 nebo RX 580 a 60GB SSD. Doporučení uvádí Core i7-11700K nebo Ryzen 7 5700X s RTX 4060, RX 7600 XT nebo Intel Arc B580.",
+      facts: ["Minimální i doporučená sestava uvádí 16 GB RAM a 60 GB prostoru na SSD.", "Oficiální tabulka neuvádí rozlišení, grafický preset, snímkovou frekvenci ani ray tracing pro jednotlivé úrovně.", "Názvy GPU označují oficiální třídu, nezaručují však stejný výkon všech tří karet v každé scéně."],
+      player: "Tabulku používejte jako základ kompatibility a počkejte na benchmarky s uvedeným ovladačem, rozlišením, presetem, upscalingem a minimálními snímky v náročných scénách. Při upgradu zohledněte zdroj, desku, chlazení a vyvážení sestavy.",
+      boundary: "Finální velikost stahování, první patch, oficiální výkonnostní cíle, stav Steam Decku, ultrawide a ray tracing nebyly úplně popsány. Název komponenty proto nepřevádíme na neotestovaný příslib FPS.",
+      faqQ: "Je SSD povinné?", faqA: "Ano. Oficiální minimální i doporučená konfigurace vyžaduje 60 GB prostoru na SSD.", source: "specs",
+    },
+  },
+};
+
+function cloneLocaleWithText(base, config) {
+  return { ...base, ...config, ui: config.ui, home: config.home, pages: config.pages };
+}
+
+locales.hu = cloneLocaleWithText(locales.cs, {
+  htmlLang: "hu", locale: "hu_HU", label: "Magyar",
+  siteTitle: "The Blood of Dawnwalker – magyar útmutató és wiki",
+  siteDescription: "Hivatalos forrásokkal ellenőrzött magyar útmutatók a megjelenésről, a 30 napos rendszerről, a nappalról és éjszakáról, a harcról, a szereplőkről, a világról és a PC-követelményekről.",
+  nav: ["Megjelenés", "30 nap", "Harc", "Szereplők"],
+  ui: {
+    verified: "Ellenőrzött válasz", quick: "Rövid válasz", confirmed: "Hivatalosan megerősített információk", player: "Mit jelent ez a játékosnak",
+    boundary: "Az ellenőrzés határai", related: "Kapcsolódó útmutatók", sources: "Hivatalos források", faq: "Gyakori kérdések",
+    home: "Magyar főoldal", all: "Teljes útmutató", sourceBacked: "Forrással igazolva", updated: "Ellenőrizve: 2026. július 26.",
+    methodology: "Csak olyan oldalt teszünk a sitemapbe, amely közvetlen választ ad egy játékoskérdésre, és hivatalos vagy first-party anyagból ellenőrizhető. A végleges kiadástól függő számokat, útvonalkövetkezményeket és teljesítményígéreteket nem állítjuk be tényként. Megjelenés után kizárólag megismételhető tesztek és hivatalos frissítési jegyzetek alapján módosítunk.",
+    notPlaceholder: "Ez nem a megjelenésre váró üres sablon. Már most megválaszolja a címben feltett kérdést, és külön jelöli azokat a részleteket, amelyeket a végleges kiadásban kell ellenőrizni.",
+  },
+  home: {
+    eyebrow: "Megjelenés: 2026. szeptember 3. · a játék gold státuszú", intro: "Magyar játékos-adatbázis, amely elkülöníti a hivatalos bejelentéseket, az első kézből származó előzeteseket és a végleges verzióban még ellenőrzendő adatokat.",
+    available: "Elérhető magyar alapútmutatók", availableCopy: "Nyolc témalap ugyanazokat a vizuális elemeket, információs hierarchiát és reszponzív elrendezést használja, mint az angol változat, közvetlen válasszal, ellenőrzési határral, GYIK-kel és kapcsolódó linkekkel.",
+    genre: "Műfaj", platforms: "Platformok", developer: "Fejlesztő", release: "Megjelenés",
+    facts: "Három fontos tény megjelenés előtt",
+    card1: ["Időrendszer", "A felfedezés nem fogyasztja a határidőt", "A 30 nap nem valós idejű visszaszámlálás. Csak a homokórával jelölt fontos cselekedetek, egyes beszélgetések és tanulások léptetik az időt."],
+    card2: ["Két alak", "Nappal ember, éjjel vámpír", "Az emberi alak kardot és rúnás hexeket használ; a vámpíralak karmokat, vérszívást és természetfeletti mozgást kap."],
+    card3: ["PC", "Legalább 16 GB RAM és SSD", "A hivatalos minimum GTX 1060 vagy RX 580, Windows 10, DirectX 12 és 60 GB SSD-tárhely."],
+  },
+  pages: {
+    "release-date": { title: "Megjelenési dátum és platformok", description: "A 2026. szeptember 3-i PC-, PS5- és Xbox Series-megjelenés, a gold státusz, valamint a még be nem jelentett előtöltés és feloldási idő.", quick: "A The Blood of Dawnwalker világszerte 2026. szeptember 3-án jelenik meg PC-re, PlayStation 5-re és Xbox Series X|S-re. Július 15-én gold státuszt jelentettek be, de a régiónkénti pontos feloldás, az előtöltés és az első napi frissítés mérete még nem ismert.", facts: ["A fejlesztő a Rebel Wolves, a kiadó a Bandai Namco Entertainment.", "PS4-, Xbox One- és Nintendo Switch-változat nincs megerősítve.", "A Steam egyes időzónákban szeptember 2-át mutathat; ez bolti időzóna-átváltás lehet, nem a globális dátum változása."], player: "Vásárlás előtt ellenőrizd a régiót, a platformot és a kiadás tartalmát. A bolti visszaszámláló által átváltott dátumot ne kezeld hivatalos globális feloldási időként. A gold státusz a fő build gyártásba kerülését jelenti, de nem zár ki első napi frissítést.", boundary: "A régiónkénti időtáblázat, az előtöltési ablak, a végleges letöltési méret, az első patch tartalma és a fizikai példányok érkezése nem ismert. Ezeket nem találjuk ki.", faqQ: "Pontosan mikor jelenik meg a játék?", faqA: "A hivatalos globális dátum 2026. szeptember 3.; egyes boltok az időzóna miatt szeptember 2-át jelezhetnek.", source: "release" },
+    "30-days": { title: "A 30 napos időrendszer működése", description: "Miért nem valós idejű visszaszámlálás a 30 nappal és éjszaka, mi fogyaszt időt, és miért nem automatikus Game Over a határidő vége.", quick: "Coennek harminc játékbeli nappala és harminc éjszakája van családja megmentésére, de szabad felfedezés közben nem telik folyamatosan az idő. Csak bizonyos jelentős vállalások fogyasztanak időt, költségüket a megerősítés előtt homokóra jelzi.", facts: ["A normál felfedezés, olvasás és környezetvizsgálat nem lépteti automatikusan a határidőt.", "Küldetés, fontos beszélgetés, képességtanulás vagy más komoly vállalás egy vagy több időegységbe kerülhet.", "A határidő vége nem egyszerű automatikus Game Over, hanem a választásoktól és a teljesített tartalomtól függő következményt indít."], player: "Az időt történeti erőforrásként kezeld, ne speedrunóraként. Megerősítés előtt nézd meg a homokóra költségét, és döntsd el, illik-e a családi, szereplői vagy frakciós célodhoz. A térképen való bolyongás önmagában nem fogyasztja a limitet.", boundary: "Minden küldetés pontos költsége, a kihagyható tartalom, a teljes következménymátrix és az optimális útvonal csak a kiadott játékban tesztelhető. Megjelenés előtt nincs megbízható teljes időbeosztás.", faqQ: "A szabad felfedezés fogyasztja a 30 napot?", faqA: "Nem. A hivatalos leírás szerint csak a világosan jelölt jelentős cselekedetek léptetik az időt.", source: "time" },
+    "day-night-system": { title: "Nappal és éjszaka: emberi és vámpíralak", description: "Coen nappali emberi és éjszakai vámpíralakjának különbségei a harcban, mozgásban, mágiában és a küldetések megoldásában.", quick: "A nappal és éjszaka nem pusztán a fényt változtatja. Nappal Coen emberként kardot és rúnás hexeket használ; éjjel vámpírként karmokat, vérszívást, erőt és természetfeletti mozgást kap. Ugyanannak a helynek más bejárata és megoldása lehet.", facts: ["Az emberi alak fegyvereket és a testbe vésett rúnákkal létrehozott hexeket használhat.", "A vámpíralak Clawride és Shadowstep mozgásképességet kap, és hat rá a vérszomj.", "Egyes tevékenységek csak meghatározott napszakban érhetők el; a nappali vagy éjjeli megoldás más eszközt és kockázatot jelenthet."], player: "Először állapítsd meg, hogy a cél beszélgetést, kardvívást, mágiát vagy függőleges mozgást igényel. Egy nappal zárt helyre éjjel más út vezethet, de a vérszomj és az ellenséges reakciók növelhetik a veszélyt.", boundary: "A teljes napszakkorlátozás, a képességek feloldási sorrendje, az átalakulás szabályai és minden küldetéskülönbség nem ismert. Néhány előzetes példából nem készítünk teljes útvonaltáblát.", faqQ: "Bármikor váltható az emberi és vámpíralak?", faqA: "Az alakok nappalhoz és éjszakához kötése megerősített; a bárhol szabad váltás nincs bejelentve.", source: "preview" },
+    "combat": { title: "Harc: irányított támadás, védekezés és hárítás", description: "Valós idejű négyirányú harc, állóképességet fogyasztó blokk, irányított hárítás, Omni-Block és a két alak eltérései.", quick: "A harc valós időben, négy támadási és védekezési iránnyal zajlik. Az ellenfél irányjelzését leolvasva kell támadást vagy védelmet választani. A tartós blokk állóképességet fogyaszt, a helyes irányú és idejű hárítás hatékonyabb.", facts: ["A négy irány a saját támadásokhoz és a bejövő csapások olvasásához is kell.", "A normál blokk biztonságosabb, de állóképességet használ; az irányított hárítás pontosabb bemenetet és időzítést kíván.", "Az opcionális Omni-Block csökkenti az iránykezelési terhet, de nem automatikus hárítás és nem tesz sebezhetetlenné."], player: "Új ellenségnél először normál blokkal tanuld meg a mozdulatokat, majd irányított hárítással takarékoskodj az állóképességgel. Az emberi alak kardra és hexekre, a vámpíralak karmokra és mozgásra épít, ezért egyetlen stratégia nem elég minden napszakban.", boundary: "A pontos időablakok, sebzésképletek, állóképességértékek, nehézségi szorzók és legerősebb kombinációk ismételt végleges tesztet igényelnek. A hivatalos meghatározás narratív akció-RPG, nem hivatalos soulslike.", faqQ: "Körökre osztott a harc?", faqA: "Nem. Valós idejű akcióharc négyirányú támadási és védelmi jelzéssel.", source: "preview" },
+    "blood-hunger": { title: "Vérszomj, táplálkozás és kontrollvesztés", description: "Hogyan befolyásolja a vámpíralak éhsége a párbeszédet és táplálkozást, milyen a kontrollvesztés kockázata, és miért lehetnek alternatívák az állatok.", quick: "Coen vámpíralakjának kezelnie kell a vérszomjat. Az éhség módosítja a lehetséges párbeszédet és viselkedést; kritikus állapotban a játékos elveszítheti Coen teljes irányítását. A vérforrás így erőforrás-, történeti és erkölcsi döntés.", facts: ["Állat, ellenség vagy fontos NPC különböző következményű vérforrás lehet.", "A hivatalos előzetes az állatokat olyan alternatívaként említi, amellyel elkerülhető fontos emberek bántása.", "A súlyos éhség nem csak egy értéket csökkenthet, hanem jelenetet és irányítási eredményt is megváltoztathat."], player: "Fontos beszélgetés vagy lakott terület előtt ellenőrizd az éhséget, és tarts biztonságos forrást. Egy névvel rendelkező NPC megölése vagy megsebesítése szolgáltatást, kapcsolatot vagy küldetést távolíthat el, ezért ne csak az azonnali harci hasznot mérlegeld.", boundary: "A pontos küszöbök, célonkénti vérmennyiség, képességhatások és minden kontrollvesztési eredmény nincs közölve. Megjelenés után azonos nehézségen és állapotban kell ismételten ellenőrizni.", faqQ: "Coennek muszáj emberi vért innia?", faqA: "A jelenlegi anyagok szerint az állatok alternatívák lehetnek, de a teljes szabályt a végleges játék erősíti meg.", source: "preview" },
+    "characters": { title: "Megerősített szereplők és kapcsolatok", description: "Coen, családja, Brencis, a Vrakhiri és a bemutatott szövetségesek spoilermentes áttekintése, a hivatalos életrajz és az ismeretlen végkimenetel elkülönítésével.", quick: "Coen egy 1347-ben Vale Sangorában élő fiatal, aki Dawnwalkerré változva próbálja megmenteni családját. A fő konfliktus Brencis vámpírúr és a Vrakhiri uralma köré épül; Anca, Bakir, Xanthe és Ambrus is hivatalosan bemutatott szereplő.", facts: ["A család határideje hajtja a fő történetet, de minden családtagnak saját múltja és reakciója van.", "Brencist egykori római szenátorként és vámpíruralkodóként mutatják be; követői eltérő korokból és kultúrákból érkeztek.", "Anca Laslea füvesasszonya, aki Coen mágiatanulásához és személyes történetéhez kapcsolódik."], player: "Különítsd el a közzétett életrajzot, az előzetesben ténylegesen látott kapcsolatot és a rajongói elméletet. A választások túlélést, szolgáltatást, szövetséget és további küldetést módosíthatnak, ezért senkit nem jelölünk biztos halottnak vagy állandó társnak.", boundary: "A társak, románcok, hűségküldetések, megölhető szereplők és befejezésenkénti túlélők teljes listája nem nyilvános. Csak ellenőrizhető személyazonosságot és kapcsolatot közlünk.", faqQ: "Coen teljes vámpír?", faqA: "Dawnwalker: nappal ember, éjjel vámpíralakkal és képességekkel rendelkező különleges lény.", source: "characters" },
+    "vale-sangora": { title: "Vale Sangora: világ, helyszínek és környezet", description: "Az 1347-es kárpáti völgy, Svartrau, Howling Keep, Shrike’s Crag, a dinamikus időjárás és a társadalmi rendszer.", quick: "Vale Sangora a játék nyílt világa, egy fiktív 14. századi kárpáti völgy, amelyre a fekete halál, a feudális nyomás és a Vrakhiri uralma hat. A bemutatott helyek között van Laslea, Svartrau városa, Howling Keep és Shrike’s Crag.", facts: ["A világ településeket, vadont, mocsarat, hegyet, romot és vámpírok által uralt területet tartalmaz.", "Az időjárás és a köd nem csak hangulatot adhat, hanem a látótávolságot és az utazási kockázatot is módosíthatja.", "Az NPC-k saját tevékenységüket folytatják; egy névvel rendelkező személy halála boltot, kovácsot vagy küldetést távolíthat el."], player: "A hasznos térképútmutató a helyet napszakhoz, bejutási módhoz, NPC-hez és világállapothoz köti, nem pusztán koordinátát sorol. A képességek nappal és éjjel eltérnek, egyes döntések pedig végleg megszüntethetnek szolgáltatásokat.", boundary: "A teljes térképméret, minden gyorsutazási pont, gyűjtögetnivaló-koordináta, ellenfél-újraéledés és területszint nincs bejelentve. Megjelenés előtt nem építünk kitalált adatbázist.", faqQ: "Vale Sangora valódi hely?", faqA: "Közép-Európa és a Kárpátok történelme és kultúrája által ihletett fiktív völgy, nem egy konkrét valódi hely.", source: "world" },
+    "system-requirements": { title: "PC-rendszerkövetelmények", description: "Hivatalos minimum és ajánlott követelmény, 16 GB RAM, 60 GB SSD, GTX 1060/RX 580 és az ajánlott RTX 4060/RX 7600 XT kategória.", quick: "A minimum Windows 10-et, DirectX 12-t, Core i5-11400F vagy Ryzen 7 2700X processzort, 16 GB RAM-ot, GTX 1060 vagy RX 580 kártyát és 60 GB SSD-t kér. Az ajánlott Core i7-11700K vagy Ryzen 7 5700X, RTX 4060, RX 7600 XT vagy Intel Arc B580 mellett.", facts: ["A minimum és az ajánlott szint is 16 GB RAM-ot és 60 GB SSD-t sorol.", "A hivatalos táblázat nem közli a felbontást, grafikai presetet, képkockaszámot vagy ray tracinget az egyes szintekhez.", "A GPU-nevek hivatalos kategóriát jelentenek, de nem garantálják a három kártya azonos sebességét minden jelenetben."], player: "A táblázatot kompatibilitási alapként használd, és várd meg a driverrel, felbontással, presettel, felskálázással és nehéz jelenetek minimumával együtt közölt benchmarkokat. Fejlesztésnél a tápegységet, alaplapot, hűtést és rendszer-egyensúlyt is vedd figyelembe.", boundary: "A végleges letöltés, az első patch, a hivatalos teljesítménycél, a Steam Deck, az ultrawide és a ray tracing részlete nincs teljesen közölve. Alkatrésznévből nem készítünk teszteletlen FPS-ígéretet.", faqQ: "Kötelező az SSD?", faqA: "Igen. A hivatalos minimum és ajánlott konfiguráció is 60 GB SSD-tárhelyet ír elő.", source: "specs" },
+  },
+});
+
+function adaptLocale(base, config, dictionary) {
+  const out = JSON.parse(JSON.stringify(base));
+  Object.assign(out, config);
+  const replace = (value) => {
+    let text = value;
+    for (const [from, to] of dictionary) text = text.split(from).join(to);
+    return text;
+  };
+  for (const page of Object.values(out.pages)) {
+    for (const key of Object.keys(page)) {
+      if (key !== "source") page[key] = Array.isArray(page[key]) ? page[key].map(replace) : replace(page[key]);
+    }
+  }
+  return out;
+}
+
+locales["es-419"] = adaptLocale(locales["pt-br"], {
+  htmlLang: "es-419", locale: "es_419", label: "Español (Latinoamérica)",
+  siteTitle: "The Blood of Dawnwalker — guía y wiki en español latino",
+  siteDescription: "Guías en español latino verificadas con fuentes oficiales sobre lanzamiento, sistema de 30 días, día y noche, combate, personajes, mundo y requisitos de PC.",
+  nav: ["Lanzamiento", "30 días", "Combate", "Personajes"],
+  ui: {
+    verified: "Respuesta verificada", quick: "Respuesta rápida", confirmed: "Información confirmada", player: "Qué significa para el jugador",
+    boundary: "Límites de la verificación", related: "Guías relacionadas", sources: "Fuentes oficiales", faq: "Preguntas frecuentes",
+    home: "Inicio en español latino", all: "Abrir guía completa", sourceBacked: "Con fuente", updated: "Verificado el 26 de julio de 2026",
+    methodology: "Solo incluimos en el sitemap páginas que responden directamente una búsqueda y pueden verificarse con material oficial o de primera parte. No presentamos como hechos cifras, resultados de rutas ni promesas de rendimiento que dependan de la versión final. Después del lanzamiento, actualizaremos con pruebas reproducibles y notas oficiales.",
+    notPlaceholder: "Esta no es una plantilla vacía a la espera del lanzamiento. Ya responde la pregunta del título y separa los hechos conocidos de los detalles que todavía deben probarse en la versión final.",
+  },
+  home: {
+    eyebrow: "Lanzamiento: 3 de septiembre de 2026 · estado gold confirmado", intro: "Una base para jugadores latinoamericanos que separa anuncios oficiales, avances de primera parte y detalles aún pendientes de la versión final.",
+    available: "Guías esenciales en español latino", availableCopy: "Ocho páginas usan los mismos componentes visuales, jerarquía de información y diseño adaptable que la versión inglesa, con respuesta directa, límites, FAQ y enlaces relacionados.",
+    genre: "Género", platforms: "Plataformas", developer: "Desarrollador", release: "Lanzamiento",
+    facts: "Tres datos importantes antes del lanzamiento",
+    card1: ["Sistema de tiempo", "Explorar no consume el límite", "Los 30 días no son una cuenta regresiva en tiempo real. Solo las acciones importantes marcadas con reloj de arena, algunas conversaciones y aprendizajes avanzan el tiempo."],
+    card2: ["Dos formas", "Humano de día, vampiro de noche", "La forma humana usa espada y hexes rúnicos; la vampírica obtiene garras, alimentación de sangre y movimiento sobrenatural."],
+    card3: ["PC", "Mínimo de 16 GB y SSD", "La GPU mínima oficial es GTX 1060 o RX 580, con Windows 10, DirectX 12 y 60 GB en SSD."],
+  },
+}, [
+  ["Data de lançamento e plataformas", "Fecha de lanzamiento y plataformas"], ["Confirma o lançamento", "Confirma el lanzamiento"],
+  ["O combate", "El combate"], ["combate", "combate"], ["O mínimo exige", "El mínimo exige"], ["Requisitos de sistema para PC", "Requisitos del sistema para PC"],
+  ["Fome de sangue", "Hambre de sangre"], ["Vale Sangora: mundo, locais e ecologia", "Vale Sangora: mundo, lugares y entorno"],
+  ["Personagens e relações confirmadas", "Personajes y relaciones confirmados"], ["Sistema de dia e noite", "Sistema de día y noche"],
+  ["Como funciona o sistema de 30 dias", "Cómo funciona el sistema de 30 días"], ["O SSD é obrigatório?", "¿Es obligatorio el SSD?"],
+  ["Sim.", "Sí."], ["Não.", "No."], ["jogador", "jugador"], ["jogo", "juego"], ["lançamento", "lanzamiento"],
+  ["página", "página"], ["oficial", "oficial"], ["mundo", "mundo"], ["sangue", "sangre"], ["personagens", "personajes"],
+]);
+
+locales.tr = adaptLocale(locales.cs, {
+  htmlLang: "tr", locale: "tr_TR", label: "Türkçe",
+  siteTitle: "The Blood of Dawnwalker – Türkçe rehber ve wiki",
+  siteDescription: "Çıkış tarihi, 30 günlük sistem, gece ve gündüz, savaş, kan açlığı, karakterler, dünya ve PC gereksinimleri için resmî kaynaklarla doğrulanmış Türkçe rehberler.",
+  nav: ["Çıkış", "30 gün", "Savaş", "Karakterler"],
+  ui: {
+    verified: "Doğrulanmış yanıt", quick: "Kısa yanıt", confirmed: "Resmen doğrulanan bilgiler", player: "Oyuncu için anlamı",
+    boundary: "Doğrulama sınırları", related: "İlgili rehberler", sources: "Resmî kaynaklar", faq: "Sık sorulan sorular",
+    home: "Türkçe ana sayfa", all: "Tam rehberi aç", sourceBacked: "Kaynakla doğrulandı", updated: "Doğrulama: 26 Temmuz 2026",
+    methodology: "Site haritasına yalnızca oyuncunun aramasını doğrudan yanıtlayan ve resmî ya da birinci taraf materyalle doğrulanabilen sayfaları ekliyoruz. Son sürüme bağlı sayıları, rota sonuçlarını ve performans vaatlerini gerçek gibi sunmuyoruz. Çıkıştan sonra yalnızca tekrarlanabilir testler ve resmî güncelleme notlarıyla içerik güncelliyoruz.",
+    notPlaceholder: "Bu sayfa çıkışı bekleyen boş bir şablon değildir. Başlıktaki soruyu mevcut bilgilerle yanıtlar ve son sürümde test edilmesi gereken ayrıntıları açıkça ayırır.",
+  },
+  home: {
+    eyebrow: "Çıkış: 3 Eylül 2026 · gold durumu doğrulandı", intro: "Resmî duyuruları, birinci taraf ön incelemeleri ve son sürümde doğrulanması gereken ayrıntıları ayıran Türkçe oyuncu veritabanı.",
+    available: "Türkçe temel rehberler", availableCopy: "Sekiz konu sayfası İngilizce sürümle aynı görsel bileşenleri, bilgi hiyerarşisini ve duyarlı düzeni kullanır; kısa yanıt, doğrulama sınırı, SSS ve ilgili bağlantılar sunar.",
+    genre: "Tür", platforms: "Platformlar", developer: "Geliştirici", release: "Çıkış",
+    facts: "Çıkıştan önce bilinmesi gereken üç bilgi",
+    card1: ["Zaman sistemi", "Keşif süreyi tüketmez", "30 gün gerçek zamanlı geri sayım değildir. Yalnızca kum saatiyle işaretlenen önemli eylemler, bazı konuşmalar ve öğrenme faaliyetleri zamanı ilerletir."],
+    card2: ["İki biçim", "Gündüz insan, gece vampir", "İnsan biçimi kılıç ve rünlü hex kullanır; vampir biçimi pençe, kanla beslenme ve doğaüstü hareket kazanır."],
+    card3: ["PC", "En az 16 GB RAM ve SSD", "Resmî minimum GTX 1060 veya RX 580, Windows 10, DirectX 12 ve 60 GB SSD alanıdır."],
+  },
+}, [
+  ["Datum vydání a platformy", "Çıkış tarihi ve platformlar"], ["Jak funguje systém 30 dnů", "30 günlük zaman sistemi nasıl çalışır"],
+  ["Den a noc: lidská a upírská podoba", "Gece ve gündüz: insan ve vampir biçimi"], ["Boj: směrové útoky, blok a parírování", "Savaş: yönlü saldırı, blok ve savuşturma"],
+  ["Hlad po krvi, krmení a ztráta kontroly", "Kan açlığı, beslenme ve kontrol kaybı"], ["Potvrzené postavy a vztahy", "Doğrulanan karakterler ve ilişkiler"],
+  ["Vale Sangora: svět, místa a prostředí", "Vale Sangora: dünya, yerler ve çevre"], ["Systémové požadavky pro PC", "PC sistem gereksinimleri"],
+  ["Je SSD povinné?", "SSD zorunlu mu?"], ["Ano.", "Evet."], ["Ne.", "Hayır."], ["hráč", "oyuncu"], ["hra", "oyun"],
+]);
+
+locales["es-419"].pages = {
+  "release-date": {
+    title: "Fecha de lanzamiento y plataformas", description: "Confirma el lanzamiento del 3 de septiembre de 2026 en PC, PS5 y Xbox Series, el estado gold y lo pendiente sobre precarga y desbloqueo.",
+    quick: "The Blood of Dawnwalker se lanza mundialmente el 3 de septiembre de 2026 para PC, PlayStation 5 y Xbox Series X|S. El estado gold se anunció el 15 de julio, pero todavía no se publicaron la hora exacta por región, la precarga ni el tamaño de la actualización del primer día.",
+    facts: ["Rebel Wolves desarrolla el juego y Bandai Namco Entertainment lo publica.", "No existen versiones confirmadas para PS4, Xbox One ni Nintendo Switch.", "Steam puede mostrar el 2 de septiembre en ciertas zonas horarias; eso puede ser una conversión de la tienda y no un cambio de la fecha global."],
+    player: "Antes de comprar, revisa la región, la plataforma y el contenido de la edición. No tomes la fecha convertida por una cuenta regresiva de la tienda como una hora global oficial. El estado gold indica que la versión principal entró en producción, pero no descarta un parche del primer día.",
+    boundary: "La tabla mundial de desbloqueo, la ventana de precarga, el tamaño final, el contenido del primer parche y el ritmo de entrega física aún no se anunciaron. Esta página no inventa esos datos.",
+    faqQ: "¿Cuál es la fecha exacta de lanzamiento?", faqA: "La fecha global oficial es el 3 de septiembre de 2026; algunas tiendas pueden mostrar el día 2 por la zona horaria.", source: "release",
+  },
+  "30-days": {
+    title: "Cómo funciona el sistema de 30 días", description: "Explica por qué 30 días y noches no son una cuenta regresiva real, qué acciones consumen tiempo y por qué el final no es un Game Over automático.",
+    quick: "Coen dispone de treinta días y treinta noches dentro del juego para intentar salvar a su familia, pero el tiempo no avanza continuamente mientras exploras. Solo ciertas decisiones importantes consumen unidades y la interfaz muestra el costo con relojes de arena antes de confirmar.",
+    facts: ["Explorar, leer y observar el entorno no hacen avanzar el plazo automáticamente.", "Una misión, conversación importante, aprendizaje de habilidad u otro compromiso relevante puede costar una o más unidades.", "Agotar el plazo no provoca un Game Over automático; activa consecuencias relacionadas con las decisiones y el contenido completado."],
+    player: "Trata el tiempo como un recurso narrativo, no como un cronómetro de speedrun. Antes de confirmar una acción, revisa los relojes de arena y decide si encaja con tu ruta familiar, personal o de facción. Perderte en el mapa no consume por sí solo el plazo.",
+    boundary: "El costo exacto de cada misión, el contenido que puede omitirse, la matriz completa de consecuencias y la ruta óptima requieren pruebas con la versión comercial. No existe un calendario total confiable antes del lanzamiento.",
+    faqQ: "¿Explorar libremente consume los 30 días?", faqA: "No. La explicación oficial indica que solo avanzan el tiempo las acciones importantes claramente señaladas.", source: "time",
+  },
+  "day-night-system": {
+    title: "Día y noche: forma humana y vampírica", description: "Diferencias entre Coen humano de día y vampiro de noche en combate, movimiento, magia y resolución de misiones.",
+    quick: "El ciclo no cambia solo la iluminación. Durante el día, Coen es humano y usa espada y hexes rúnicos; por la noche se vuelve vampiro y obtiene garras, alimentación, fuerza y movimiento sobrenatural. Un mismo lugar puede ofrecer entradas y soluciones distintas.",
+    facts: ["La forma humana emplea armas y hexes creados mediante runas grabadas en el cuerpo.", "La forma vampírica obtiene movimientos como Clawride y Shadowstep y está afectada por el hambre de sangre.", "Algunas actividades aparecen solo en cierto horario; elegir día o noche puede cambiar herramientas y riesgos."],
+    player: "Primero identifica si el objetivo exige conversación, espada, magia o desplazamiento vertical. Un lugar sin entrada frontal puede tener otra ruta nocturna, aunque el hambre y las reacciones hostiles también pueden elevar el riesgo.",
+    boundary: "No se publicaron todas las restricciones horarias, el orden de habilidades, las reglas de transformación ni las diferencias de cada misión. Los pocos ejemplos de avances no forman una tabla completa de rutas.",
+    faqQ: "¿Se puede cambiar de humano a vampiro cuando sea?", faqA: "La relación de cada forma con el día y la noche está confirmada; no se anunció un cambio libre en cualquier lugar.", source: "preview",
+  },
+  "combat": {
+    title: "Combate: ataques direccionales, bloqueo y parry", description: "Combate en tiempo real de cuatro direcciones, bloqueo con resistencia, parry direccional, Omni-Block y diferencias entre formas.",
+    quick: "El combate usa cuatro direcciones para atacar y defender en tiempo real. Debes leer el indicador del enemigo y elegir dirección de golpe o defensa. Mantener el bloqueo consume resistencia, mientras que un parry con dirección y tiempo correctos resulta más eficiente.",
+    facts: ["Las cuatro direcciones sirven para tus ataques y para interpretar los golpes entrantes.", "El bloqueo normal es más seguro pero gasta resistencia; el parry direccional exige entrada y tiempo más precisos.", "Omni-Block es una opción que reduce la carga direccional, pero no ejecuta un parry automático ni concede invulnerabilidad."],
+    player: "Ante un enemigo nuevo, usa primero el bloqueo para aprender sus movimientos y luego intenta parries para conservar resistencia. La forma humana favorece espada y hexes; la vampírica cambia el ritmo con garras y movilidad, así que una sola estrategia no cubre todos los horarios.",
+    boundary: "Las ventanas exactas, fórmulas de daño, valores de resistencia, multiplicadores de dificultad y mejores combinaciones necesitan pruebas repetidas. La descripción oficial es RPG de acción narrativo, no una etiqueta oficial de soulslike.",
+    faqQ: "¿El combate es por turnos?", faqA: "No. Es acción en tiempo real con indicadores de cuatro direcciones para ataque y defensa.", source: "preview",
+  },
+  "blood-hunger": {
+    title: "Hambre de sangre, alimentación y pérdida de control", description: "Cómo el hambre vampírica afecta diálogos y alimentación, el riesgo de perder el control de Coen y la alternativa de usar animales.",
+    quick: "La forma vampírica de Coen debe administrar el hambre de sangre. El nivel de hambre afecta las opciones de diálogo y conducta; en estado crítico, el jugador puede perder el control completo de Coen. Elegir una fuente de sangre es una decisión de recursos, narrativa y moral.",
+    facts: ["Animales, enemigos o NPC importantes pueden ser fuentes con consecuencias diferentes.", "Un avance oficial menciona a los animales como alternativa para evitar dañar a personas importantes.", "El hambre extrema puede modificar una escena y el resultado de control, no solo reducir una barra."],
+    player: "Antes de una conversación importante o de entrar en una zona poblada, revisa el hambre y conserva una fuente segura. Herir o matar a un NPC con nombre puede eliminar servicios, relaciones o misiones; el beneficio inmediato de combate no debe ser el único criterio.",
+    boundary: "Los umbrales exactos, la sangre obtenida de cada objetivo, los efectos de habilidades y todos los resultados de pérdida de control no se publicaron. Deben comprobarse con igual dificultad y estado después del lanzamiento.",
+    faqQ: "¿Coen tiene que beber sangre humana?", faqA: "Los datos actuales indican que los animales pueden servir de alternativa, pero la versión final debe confirmar las reglas completas.", source: "preview",
+  },
+  "characters": {
+    title: "Personajes y relaciones confirmados", description: "Presenta sin spoilers a Coen, su familia, Brencis, los Vrakhiri y aliados revelados, separando biografía oficial de finales desconocidos.",
+    quick: "Coen es un joven que vive en Vale Sangora en 1347 y debe salvar a su familia después de convertirse en Dawnwalker. El conflicto principal gira alrededor del señor vampiro Brencis y el dominio Vrakhiri; Anca, Bakir, Xanthe y Ambrus también fueron presentados.",
+    facts: ["El plazo de la familia impulsa la historia, pero cada integrante tiene antecedentes y reacciones propios.", "Brencis aparece como antiguo senador romano y gobernante vampiro; sus seguidores provienen de épocas y culturas distintas.", "Anca es la herbolaria de Laslea y se vincula con el aprendizaje mágico y la historia personal de Coen."],
+    player: "Distingue entre biografías publicadas, relaciones observadas en avances y teorías de la comunidad. Las decisiones pueden cambiar supervivencia, servicios, alianzas y misiones posteriores; no se debe marcar a nadie como muerte obligatoria ni compañero fijo antes de probarlo.",
+    boundary: "No se publicó la lista completa de compañeros, romances, misiones de lealtad, personajes eliminables ni supervivientes por final. Esta página registra solo identidades y relaciones verificables.",
+    faqQ: "¿Coen es un vampiro completo?", faqA: "Es un Dawnwalker: humano durante el día y con forma y poderes vampíricos por la noche.", source: "characters",
+  },
+  "vale-sangora": {
+    title: "Vale Sangora: mundo, lugares y entorno", description: "El valle de los Cárpatos en 1347, Svartrau, Howling Keep, Shrike’s Crag, clima dinámico y estructura social.",
+    quick: "Vale Sangora es el mundo abierto del juego, un valle ficticio de los Cárpatos del siglo XIV afectado por la Peste Negra, la presión feudal y el dominio Vrakhiri. Laslea, Svartrau, Howling Keep y Shrike’s Crag están entre los lugares revelados.",
+    facts: ["El mundo combina poblados, áreas salvajes, pantanos, montañas, ruinas y territorios controlados por vampiros.", "El clima y la niebla pueden modificar visibilidad y riesgo de traslado, además de la atmósfera.", "Los NPC continúan sus actividades; la muerte de una persona con nombre puede eliminar una tienda, forja o misión."],
+    player: "Una guía útil debe conectar cada lugar con horario, método de entrada, NPC y estado del mundo, no limitarse a coordenadas. Las capacidades cambian entre día y noche y ciertas decisiones pueden quitar servicios de forma permanente.",
+    boundary: "El tamaño completo, todos los puntos de viaje rápido, las coordenadas de coleccionables, la reaparición enemiga y los niveles regionales no se publicaron. No construiremos una base de datos ficticia antes del lanzamiento.",
+    faqQ: "¿Vale Sangora es un lugar real?", faqA: "Es un valle ficticio inspirado en la historia y cultura de Europa Central y los Cárpatos, no un lugar real concreto.", source: "world",
+  },
+  "system-requirements": {
+    title: "Requisitos del sistema para PC", description: "Requisitos mínimos y recomendados: 16 GB, SSD de 60 GB, GTX 1060/RX 580 y categoría recomendada RTX 4060/RX 7600 XT.",
+    quick: "El mínimo exige Windows 10, DirectX 12, Core i5-11400F o Ryzen 7 2700X, 16 GB de RAM, GTX 1060 o RX 580 y SSD de 60 GB. Lo recomendado es Core i7-11700K o Ryzen 7 5700X con RTX 4060, RX 7600 XT o Intel Arc B580.",
+    facts: ["Tanto el mínimo como lo recomendado indican 16 GB de RAM y SSD de 60 GB.", "La tabla oficial no especifica resolución, preset, tasa de cuadros ni ray tracing para cada nivel.", "Los nombres de GPU definen categorías oficiales, pero no garantizan la misma velocidad de las tres tarjetas en toda escena."],
+    player: "Usa la tabla como base de compatibilidad y espera benchmarks que indiquen controlador, resolución, preset, escalado y mínimos en escenas pesadas. Al actualizar, considera fuente de poder, placa madre, refrigeración y equilibrio del sistema.",
+    boundary: "La descarga final, el parche inicial, los objetivos oficiales de rendimiento, Steam Deck, ultrawide y ray tracing no se detallaron por completo. No convertimos el nombre de una pieza en una promesa de FPS sin pruebas.",
+    faqQ: "¿Es obligatorio el SSD?", faqA: "Sí. Las configuraciones mínima y recomendada indican 60 GB de almacenamiento en SSD.", source: "specs",
+  },
+};
+
+locales.tr.pages = {
+  "release-date": {
+    title: "Çıkış tarihi ve platformlar", description: "3 Eylül 2026 PC, PS5 ve Xbox Series çıkışını, gold durumunu ve henüz açıklanmayan ön yükleme ile açılış saatini doğrular.",
+    quick: "The Blood of Dawnwalker dünya genelinde 3 Eylül 2026'da PC, PlayStation 5 ve Xbox Series X|S için çıkacak. 15 Temmuz'da gold durumu açıklandı; bölgelere göre kesin açılış saati, ön yükleme tarihi ve ilk gün güncellemesinin boyutu henüz yayımlanmadı.",
+    facts: ["Oyunu Rebel Wolves geliştiriyor, Bandai Namco Entertainment yayımlıyor.", "PS4, Xbox One veya Nintendo Switch sürümü doğrulanmış değil.", "Steam bazı saat dilimlerinde 2 Eylül gösterebilir; bu mağazanın saat dönüşümü olabilir ve küresel tarihin değiştiği anlamına gelmez."],
+    player: "Satın almadan önce bölgeyi, platformu ve sürüm içeriğini kontrol et. Mağaza sayacının dönüştürdüğü tarihi resmî küresel açılış saati sayma. Gold durumu ana yapının üretime hazır olduğunu gösterir ancak ilk gün yamasını dışlamaz.",
+    boundary: "Bölgesel açılış tablosu, ön yükleme penceresi, son indirme boyutu, ilk yama içeriği ve fiziksel teslimat temposu açıklanmadı. Bu sayfa bunları tahmin etmez.",
+    faqQ: "Oyun tam olarak ne zaman çıkacak?", faqA: "Resmî küresel tarih 3 Eylül 2026'dır; bazı mağazalar saat dilimi nedeniyle 2 Eylül gösterebilir.", source: "release",
+  },
+  "30-days": {
+    title: "30 günlük zaman sistemi nasıl çalışır", description: "Otuz gün ve gecenin neden gerçek zamanlı sayaç olmadığını, hangi eylemlerin zaman tükettiğini ve sonun neden otomatik Game Over olmadığını açıklar.",
+    quick: "Coen'in ailesini kurtarmayı denemek için oyun içinde otuz gündüzü ve otuz gecesi vardır, ancak serbest keşif sırasında zaman sürekli akmaz. Yalnızca bazı önemli kararlar zaman birimi tüketir ve arayüz onaydan önce kum saatiyle maliyeti gösterir.",
+    facts: ["Normal keşif, okuma ve çevreyi inceleme süreyi otomatik ilerletmez.", "Görev, önemli konuşma, yetenek öğrenme veya başka ciddi bir taahhüt bir ya da daha fazla zaman birimi tüketebilir.", "Sürenin bitmesi basit bir otomatik Game Over değildir; seçimlere ve tamamlanan içeriğe bağlı sonuçlar başlatır."],
+    player: "Zamanı speedrun sayacı değil, anlatı kaynağı olarak yönet. Bir eylemi onaylamadan kum saati maliyetine bak ve mevcut aile, karakter ya da grup rotana uyup uymadığına karar ver. Haritada dolaşmak tek başına süreyi tüketmez.",
+    boundary: "Her görevin kesin bedeli, atlanabilir içerik, sonuçların tam matrisi ve en iyi rota satış sürümünde test gerektirir. Çıkıştan önce güvenilir bir tam takvim hazırlamak mümkün değildir.",
+    faqQ: "Serbest keşif 30 günlük süreyi tüketir mi?", faqA: "Hayır. Resmî açıklamaya göre yalnızca açıkça işaretlenen önemli eylemler zamanı ilerletir.", source: "time",
+  },
+  "day-night-system": {
+    title: "Gece ve gündüz: insan ve vampir biçimi", description: "Coen'in gündüz insan, gece vampir oluşunun savaş, hareket, büyü ve görev çözümündeki farklarını açıklar.",
+    quick: "Gece ve gündüz yalnızca ışığı değiştirmez. Coen gündüz insan olarak kılıç ve rünlü hex kullanır; gece vampir olarak pençe, kanla beslenme, güç ve doğaüstü hareket kazanır. Aynı yer farklı giriş ve çözüm sunabilir.",
+    facts: ["İnsan biçimi silahları ve vücuda kazınan rünlerle yapılan hex büyülerini kullanabilir.", "Vampir biçimi Clawride ve Shadowstep gibi hareket yetenekleri kazanır ve kan açlığından etkilenir.", "Bazı etkinlikler yalnızca belirli zamanlarda açılır; gündüz veya gece seçimi araçları ve riski değiştirebilir."],
+    player: "Önce hedefin konuşma, kılıç, büyü veya dikey hareket gerektirip gerektirmediğini belirle. Önden girilemeyen bir yere gece başka yol açılabilir; ancak açlık ve düşmanca tepkiler riski artırabilir.",
+    boundary: "Tüm zaman kısıtları, yetenek açılma sırası, dönüşüm kuralları ve görev farklılıkları yayımlanmadı. Birkaç ön inceleme örneğini tam rota tablosu gibi sunmuyoruz.",
+    faqQ: "İnsan ve vampir biçimi istenildiği zaman değiştirilebilir mi?", faqA: "Biçimlerin gündüz ve geceye bağlı olduğu doğrulandı; her yerde serbest değişim açıklanmadı.", source: "preview",
+  },
+  "combat": {
+    title: "Savaş: yönlü saldırı, blok ve savuşturma", description: "Gerçek zamanlı dört yönlü savaş, dayanıklılık kullanan blok, yönlü savuşturma, Omni-Block ve iki biçim arasındaki farklar.",
+    quick: "Savaş gerçek zamanlı dört saldırı ve savunma yönü kullanır. Düşmanın yön göstergesini okuyup saldırı ya da savunma yönünü seçmen gerekir. Sürekli blok dayanıklılık tüketir; doğru yön ve zamanda savuşturma daha verimlidir.",
+    facts: ["Dört yön hem oyuncunun saldırıları hem gelen darbeleri okumak için kullanılır.", "Normal blok daha güvenlidir ancak dayanıklılık tüketir; yönlü savuşturma daha doğru giriş ve zamanlama ister.", "İsteğe bağlı Omni-Block yön kontrolü yükünü azaltır fakat otomatik savuşturma veya dokunulmazlık sağlamaz."],
+    player: "Yeni düşmanda önce normal blokla hareketleri öğren, sonra dayanıklılığı korumak için yönlü savuşturmayı dene. İnsan biçimi kılıç ve hex, vampir biçimi pençe ve hareket ağırlıklıdır; tek strateji her zaman için yeterli olmayabilir.",
+    boundary: "Kesin zaman pencereleri, hasar formülleri, dayanıklılık değerleri, zorluk çarpanları ve en iyi kombinasyonlar son sürümde tekrarlı test gerektirir. Resmî tanım anlatı odaklı aksiyon RPG'dir, resmî bir soulslike etiketi değildir.",
+    faqQ: "Savaş sıra tabanlı mı?", faqA: "Hayır. Saldırı ve savunma için dört yön göstergesi kullanan gerçek zamanlı aksiyon savaşıdır.", source: "preview",
+  },
+  "blood-hunger": {
+    title: "Kan açlığı, beslenme ve kontrol kaybı", description: "Vampir açlığının diyalog ve beslenmeyi nasıl etkilediğini, Coen'in kontrolünü kaybetme riskini ve hayvan alternatifini açıklar.",
+    quick: "Coen'in vampir biçimi kan açlığını yönetmelidir. Açlık mevcut diyalogları ve davranışı etkiler; kritik durumda oyuncu Coen üzerindeki tam kontrolünü kaybedebilir. Kan kaynağı seçimi kaynak, anlatı ve ahlak kararıdır.",
+    facts: ["Hayvan, düşman veya önemli bir NPC farklı sonuçlara sahip kan kaynağı olabilir.", "Resmî ön inceleme, önemli insanlara zarar vermemek için hayvanları alternatif olarak anıyor.", "Aşırı açlık yalnızca bir sayıyı düşürmek yerine sahneyi ve kontrol sonucunu değiştirebilir."],
+    player: "Önemli konuşma veya kalabalık bölge öncesinde açlığı kontrol et ve güvenli kaynak bırak. İsimli bir NPC'yi öldürmek ya da yaralamak hizmeti, ilişkiyi veya görevi kaldırabilir; yalnızca anlık savaş kazancıyla karar verme.",
+    boundary: "Kesin eşikler, hedef başına kan miktarı, yetenek etkileri ve tüm kontrol kaybı sonuçları yayımlanmadı. Çıkıştan sonra aynı zorluk ve durumda tekrarlı olarak test edilmelidir.",
+    faqQ: "Coen insan kanı içmek zorunda mı?", faqA: "Mevcut bilgiler hayvanların alternatif olabileceğini gösteriyor; tam kuralları son sürüm doğrulamalıdır.", source: "preview",
+  },
+  "characters": {
+    title: "Doğrulanan karakterler ve ilişkiler", description: "Coen, ailesi, Brencis, Vrakhiri ve açıklanan müttefikleri spoilersız tanıtır; resmî biyografiyle bilinmeyen sonları ayırır.",
+    quick: "Coen, 1347'de Vale Sangora'da yaşayan ve Dawnwalker'a dönüştükten sonra ailesini kurtarmaya çalışan gençtir. Ana çatışma vampir hükümdar Brencis ve Vrakhiri yönetimi çevresindedir; Anca, Bakir, Xanthe ve Ambrus da resmen tanıtıldı.",
+    facts: ["Ailenin süresi ana hikâyeyi yönlendirir, ancak her aile üyesinin kendi geçmişi ve tepkileri vardır.", "Brencis eski bir Roma senatörü ve vampir hükümdar olarak tanıtılır; takipçileri farklı dönem ve kültürlerden gelir.", "Anca, Laslea'nın şifacısıdır ve Coen'in büyü öğrenimiyle kişisel hikâyesine bağlıdır."],
+    player: "Yayımlanmış biyografi, ön incelemede gerçekten görülen ilişki ve hayran teorisini ayır. Seçimler hayatta kalmayı, hizmetleri, ittifakları ve sonraki görevleri değiştirebilir; test etmeden kimseyi kesin ölü veya sabit yoldaş olarak işaretleme.",
+    boundary: "Tüm yoldaşlar, romantik ilişkiler, sadakat görevleri, öldürülebilen karakterler ve sonlara göre hayatta kalanlar açıklanmadı. Yalnızca doğrulanabilir kimlik ve ilişkileri kaydediyoruz.",
+    faqQ: "Coen tam bir vampir mi?", faqA: "Coen bir Dawnwalker'dır: gündüz insan, gece vampir biçimi ve güçleri olan özel bir varlık.", source: "characters",
+  },
+  "vale-sangora": {
+    title: "Vale Sangora: dünya, yerler ve çevre", description: "1347 Karpat vadisini, Svartrau, Howling Keep, Shrike’s Crag, dinamik hava ve toplumsal yapıyı tanıtır.",
+    quick: "Vale Sangora oyunun açık dünyasıdır; Kara Ölüm, feodal baskı ve Vrakhiri yönetiminden etkilenen 14. yüzyıl kurgusal Karpat vadisidir. Laslea, Svartrau, Howling Keep ve Shrike’s Crag açıklanan yerler arasındadır.",
+    facts: ["Dünya yerleşimler, vahşi alanlar, bataklıklar, dağlar, harabeler ve vampir kontrolündeki bölgeler içerir.", "Hava ve sis yalnızca atmosferi değil, görüşü ve seyahat riskini de değiştirebilir.", "NPC'ler kendi faaliyetlerine devam eder; isimli birinin ölümü dükkânı, demirciyi veya görevi kaldırabilir."],
+    player: "Yararlı bir harita rehberi yeri yalnızca koordinatla değil, zaman, giriş yöntemi, NPC ve dünya durumuyla ilişkilendirmelidir. Yetenekler gece ile gündüz arasında değişir ve bazı seçimler hizmetleri kalıcı olarak kaldırabilir.",
+    boundary: "Tam harita boyutu, tüm hızlı seyahat noktaları, koleksiyon koordinatları, düşman yenilenmesi ve bölge seviyeleri açıklanmadı. Çıkıştan önce kurgusal veri tabanı üretmiyoruz.",
+    faqQ: "Vale Sangora gerçek bir yer mi?", faqA: "Orta Avrupa ve Karpat tarihinden ve kültüründen esinlenen kurgusal bir vadidir; tek bir gerçek yer değildir.", source: "world",
+  },
+  "system-requirements": {
+    title: "PC sistem gereksinimleri", description: "Resmî minimum ve önerilen gereksinimler: 16 GB, 60 GB SSD, GTX 1060/RX 580 ve önerilen RTX 4060/RX 7600 XT sınıfı.",
+    quick: "Minimum Windows 10, DirectX 12, Core i5-11400F veya Ryzen 7 2700X, 16 GB RAM, GTX 1060 veya RX 580 ve 60 GB SSD ister. Önerilen Core i7-11700K veya Ryzen 7 5700X ile RTX 4060, RX 7600 XT ya da Intel Arc B580'dir.",
+    facts: ["Minimum ve önerilen düzeylerin ikisi de 16 GB RAM ve 60 GB SSD listeler.", "Resmî tablo her düzey için çözünürlük, grafik ön ayarı, kare hızı veya ışın izlemeyi belirtmez.", "GPU adları resmî sınıfları gösterir ancak üç kartın her sahnede aynı hızda olacağını garanti etmez."],
+    player: "Tabloyu uyumluluk tabanı olarak kullan ve sürücü, çözünürlük, ön ayar, ölçekleme ile ağır sahne minimumlarını açıklayan benchmarkları bekle. Yükseltmede güç kaynağı, anakart, soğutma ve sistem dengesini de değerlendir.",
+    boundary: "Son indirme, ilk yama, resmî performans hedefleri, Steam Deck, ultrawide ve ışın izleme ayrıntıları tam açıklanmadı. Bir parça adını test edilmemiş FPS vaadine çevirmiyoruz.",
+    faqQ: "SSD zorunlu mu?", faqA: "Evet. Resmî minimum ve önerilen yapılandırmalar 60 GB SSD depolama alanı istiyor.", source: "specs",
+  },
+};
+
 function esc(value) {
   return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 }
@@ -615,15 +957,15 @@ fs.writeFileSync(path.join(ROOT, "sitemap-index.xml"), `<?xml version="1.0" enco
 
 const roadmapFile = path.join(ROOT, "URL_ROADMAP_TO_1000.json");
 const roadmap = JSON.parse(fs.readFileSync(roadmapFile, "utf8"));
-roadmap.currentRound = 16;
+roadmap.currentRound = 17;
 roadmap.currentIndexableUrls = allUrls.length;
 roadmap.remainingToTarget = roadmap.targetIndexableUrls - allUrls.length;
 roadmap.phases[0].status = `completed and extended to ${allUrls.length} total indexable URLs`;
 fs.writeFileSync(roadmapFile, JSON.stringify(roadmap, null, 2) + "\n");
 
-fs.writeFileSync(path.join(ROOT, "ROUND_16_URL_MANIFEST.json"), JSON.stringify({
+fs.writeFileSync(path.join(ROOT, "ROUND_17_URL_MANIFEST.json"), JSON.stringify({
   generatedAt: DATE,
-  round: 16,
+  round: 17,
   locales: Object.keys(locales),
   routes,
   newLocalizedPages: Object.keys(locales).length * routes.length,

@@ -8,11 +8,16 @@ const locales = [
   ["zh-hant", "zh-Hant", "cjk"],
   ["ko", "ko", "cjk"],
   ["pt-br", "pt-BR", "latin"],
+  ["cs", "cs", "latin"],
+  ["hu", "hu", "latin"],
+  ["es-419", "es-419", "latin"],
+  ["tr", "tr", "latin"],
 ];
 const equivalentLocales = [
   ["", "en"], ["de", "de"], ["es", "es-ES"], ["fr", "fr"], ["it", "it"],
   ["pl", "pl"], ["zh-hans", "zh-Hans"], ["zh-hant", "zh-Hant"], ["ja", "ja"],
   ["ko", "ko"], ["pt-br", "pt-BR"],
+  ["cs", "cs"], ["hu", "hu"], ["es-419", "es-419"], ["tr", "tr"],
 ];
 const routes = [
   "release-date", "30-days", "day-night-system", "combat",
@@ -63,7 +68,7 @@ for (const [locale, lang, mode] of locales) {
     const text = stripHtml(html);
     const latinWords = text.split(/\s+/).filter(Boolean).length;
     const letters = (text.match(/[\p{L}\p{N}]/gu) || []).length;
-    metrics.push({ locale, route, latinWords, letters });
+    metrics.push({ locale, route, mode, latinWords, letters });
 
     for (const className of articleClasses) {
       if (!new RegExp(`class="[^"]*\\b${className}\\b`).test(html)) errors.push(`${locale}/${route} missing class ${className}`);
@@ -106,7 +111,7 @@ for (const className of [...new Set([...articleClasses, ...homeClasses])].filter
 
 const result = {
   generatedAt: "2026-07-26",
-  round: 16,
+  round: 17,
   newLocalizedPages: locales.length * routes.length,
   upgradedLocalizedHomes: locales.length,
   locales: locales.map(([locale]) => locale),
@@ -118,7 +123,7 @@ const result = {
     requiredHomeClasses: homeClasses,
   },
   contentDepth: {
-    minimumPortugueseWords: Math.min(...metrics.filter((item) => item.locale === "pt-br").map((item) => item.latinWords)),
+    minimumLatinWords: Math.min(...metrics.filter((item) => item.mode !== "cjk").map((item) => item.latinWords)),
     minimumCjkOrKoreanLetters: Math.min(...metrics.filter((item) => item.locale !== "pt-br").map((item) => item.letters)),
   },
   reciprocalHreflangLocales: equivalentLocales.map(([, lang]) => lang),
@@ -126,6 +131,6 @@ const result = {
   errors: [...new Set(errors)],
 };
 
-fs.writeFileSync(path.join(ROOT, "ROUND_16_VALIDATION.json"), JSON.stringify(result, null, 2) + "\n");
+fs.writeFileSync(path.join(ROOT, "ROUND_17_VALIDATION.json"), JSON.stringify(result, null, 2) + "\n");
 console.log(JSON.stringify(result, null, 2));
 if (result.errors.length) process.exit(1);
