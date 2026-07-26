@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-26",
+  "faqPageAnswers": "170+",
+  "addedVisibleFaqs": 50,
+  "addedSchemaQuestions": 50,
+  "tabsChecked": 7,
+  "tabEntryLinks": 50,
+  "distribution": {
+    "release-guides": 7,
+    "gameplay-guides": 9,
+    "walkthrough-guides": 8,
+    "story-guides": 8,
+    "technical-guides": 8,
+    "faq-guides": 5,
+    "updates-guides": 5
+  },
+  "exactQuestionDuplicates": 0,
+  "brokenFaqAnchors": 0,
+  "errors": []
+}

@@ -1,8 +1,10 @@
 {
   "generatedAt": "2026-07-25",
-  "newVisibleFaqs": 100,
+  "newVisibleFaqs": 150,
   "faqSchemaQuestions": 100,
   "tabsWithFaqEntryModules": 7,
-  "totalTabFaqEntryLinks": 100,
-  "errors": []
+  "totalTabFaqEntryLinks": 150,
+  "errors": [
+    "expanded FAQ count 150"
+  ]
 }
