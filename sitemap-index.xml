@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://bloodofdawnwalker.cc/sitemap.xml</loc>
-    <lastmod>2026-07-18</lastmod>
-  </sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-en.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-de.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-es.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-fr.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-it.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-pl.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-zh-hans.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-zh-hant.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-ja.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-ko.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-cs.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-hu.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-pt-br.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-es-419.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
+  <sitemap><loc>https://bloodofdawnwalker.cc/sitemap-tr.xml</loc><lastmod>2026-07-26</lastmod></sitemap>
 </sitemapindex>

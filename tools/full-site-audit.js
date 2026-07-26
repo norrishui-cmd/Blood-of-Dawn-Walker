@@ -117,7 +117,7 @@ for (const route of officialLanguageHomes) {
 }
 
 const result = {
-  generatedAt: "2026-07-25",
+  generatedAt: "2026-07-26",
   liveHtmlFiles: routes.size,
   indexableHtml,
   noindexHtml,
