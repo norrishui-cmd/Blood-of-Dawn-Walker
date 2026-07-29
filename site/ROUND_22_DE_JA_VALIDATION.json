@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-07-29",
+  "round": 22,
+  "localizedPages": 80,
+  "german": {
+    "news": 20,
+    "faq": 20,
+    "minimumVisibleWords": 334
+  },
+  "japanese": {
+    "news": 20,
+    "faq": 20,
+    "minimumJapaneseCharacters": 760
+  },
+  "localizedHubs": 3,
+  "globalSitemapUrls": 782,
+  "sharedEnglishComponentContract": [
+    "site-header",
+    "article-main",
+    "article-hero",
+    "article-body",
+    "article-content",
+    "article-aside",
+    "verification-box",
+    "related-grid",
+    "faq-list",
+    "site-footer"
+  ],
+  "reciprocalHreflang": [
+    "en",
+    "de",
+    "ja",
+    "x-default"
+  ],
+  "errors": []
+}

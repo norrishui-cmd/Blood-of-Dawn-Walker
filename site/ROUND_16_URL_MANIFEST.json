@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-26",
+  "round": 16,
+  "locales": [
+    "zh-hans",
+    "zh-hant",
+    "ko",
+    "pt-br"
+  ],
+  "routes": [
+    "release-date",
+    "30-days",
+    "day-night-system",
+    "combat",
+    "blood-hunger",
+    "characters",
+    "vale-sangora",
+    "system-requirements"
+  ],
+  "newLocalizedPages": 32,
+  "upgradedLocalizedHomes": 4,
+  "sitemapUrls": 457,
+  "remainingTo1000": 543
+}

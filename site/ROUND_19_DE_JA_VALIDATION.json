@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-26",
+  "round": 19,
+  "german": {
+    "addedOrReindexed": 20,
+    "minimumVisibleWords": 370
+  },
+  "japanese": {
+    "addedOrReindexed": 20,
+    "minimumJapaneseCharacters": 825
+  },
+  "sharedEnglishComponentContract": [
+    "site-header",
+    "article-main",
+    "article-hero",
+    "article-body",
+    "article-content",
+    "article-aside",
+    "verification-box",
+    "related-grid",
+    "faq-list",
+    "site-footer"
+  ],
+  "reciprocalHreflang": [
+    "en",
+    "de",
+    "ja"
+  ],
+  "errors": []
+}

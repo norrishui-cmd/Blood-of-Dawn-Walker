@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-26",
+  "round": 17,
+  "locales": [
+    "cs",
+    "hu",
+    "es-419",
+    "tr"
+  ],
+  "routes": [
+    "release-date",
+    "30-days",
+    "day-night-system",
+    "combat",
+    "blood-hunger",
+    "characters",
+    "vale-sangora",
+    "system-requirements"
+  ],
+  "newLocalizedPages": 32,
+  "upgradedLocalizedHomes": 4,
+  "sitemapUrls": 489,
+  "remainingTo1000": 511
+}

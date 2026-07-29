@@ -1,0 +1,431 @@
+{
+  "generatedAt": "2026-07-25",
+  "round": 13,
+  "newHubs": [
+    {
+      "cluster": "prologue",
+      "route": "/prologue-guides/",
+      "label": "Prologue Activity"
+    },
+    {
+      "cluster": "combat",
+      "route": "/combat-mechanics/",
+      "label": "Combat Mechanic"
+    },
+    {
+      "cluster": "world",
+      "route": "/world-reactivity/",
+      "label": "World Reactivity"
+    },
+    {
+      "cluster": "lore",
+      "route": "/vrakhiri-lore/",
+      "label": "Vrakhiri Lore"
+    },
+    {
+      "cluster": "family",
+      "route": "/coen-family/",
+      "label": "Coen Family"
+    },
+    {
+      "cluster": "editions",
+      "route": "/edition-comparisons/",
+      "label": "Edition Guide"
+    },
+    {
+      "cluster": "pc",
+      "route": "/pc-specs-explained/",
+      "label": "PC Requirement"
+    },
+    {
+      "cluster": "development",
+      "route": "/development-insights/",
+      "label": "Development & Saga"
+    }
+  ],
+  "newLeaves": [
+    {
+      "route": "/blood-mass-prologue/",
+      "cluster": "prologue",
+      "title": "Blood Mass Prologue Explained",
+      "source": "https://blog.playstation.com/2026/07/07/the-blood-of-dawnwalker-unique-time-driven-quest-system-and-player-choice-detailed/"
+    },
+    {
+      "route": "/anca-medicine-quest/",
+      "cluster": "prologue",
+      "title": "Anca Medicine Quest Preview",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/anca-latin-lesson/",
+      "cluster": "prologue",
+      "title": "Anca Latin Lesson Choice",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/escaped-pig-activity/",
+      "cluster": "prologue",
+      "title": "Escaped Pig Activity Preview",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/stolen-tapestry-quest/",
+      "cluster": "prologue",
+      "title": "Stolen Tapestry Quest Preview",
+      "source": "https://blog.playstation.com/2026/07/07/the-blood-of-dawnwalker-unique-time-driven-quest-system-and-player-choice-detailed/"
+    },
+    {
+      "route": "/river-fishing-with-siblings/",
+      "cluster": "prologue",
+      "title": "River Fishing With Coen's Siblings",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/old-woman-unearthed-grave/",
+      "cluster": "prologue",
+      "title": "Old Woman and Unearthed Grave Encounter",
+      "source": "https://blog.playstation.com/2026/07/07/the-blood-of-dawnwalker-unique-time-driven-quest-system-and-player-choice-detailed/"
+    },
+    {
+      "route": "/laslea-revolution-thread/",
+      "cluster": "prologue",
+      "title": "Laslea Revolution Thread Preview",
+      "source": "https://blog.playstation.com/2026/07/07/the-blood-of-dawnwalker-unique-time-driven-quest-system-and-player-choice-detailed/"
+    },
+    {
+      "route": "/four-direction-combat/",
+      "cluster": "combat",
+      "title": "Four-Direction Combat System",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/block-stamina-cost/",
+      "cluster": "combat",
+      "title": "Does Blocking Cost Stamina?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/directional-parry/",
+      "cluster": "combat",
+      "title": "Directional Parry Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/repeated-attack-direction/",
+      "cluster": "combat",
+      "title": "Why Repeating One Attack Direction Is Risky",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/feeding-animation-risk/",
+      "cluster": "combat",
+      "title": "Feeding Animation Risk and Interruptions",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/rat-blood-healing/",
+      "cluster": "combat",
+      "title": "Can Coen Heal From Rats?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/wolf-form-traversal/",
+      "cluster": "combat",
+      "title": "Wolf Form Traversal Explained",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/blood-magic-investigation/",
+      "cluster": "combat",
+      "title": "Blood Magic for Investigations",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    },
+    {
+      "route": "/blood-convoys/",
+      "cluster": "world",
+      "title": "Blood Convoys in Vale Sangora",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/infamy-system/",
+      "cluster": "world",
+      "title": "Infamy System Explained",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/blacksmith-choice-consequence/",
+      "cluster": "world",
+      "title": "What Happens If You Kill a Blacksmith?",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/free-captive-consequence/",
+      "cluster": "world",
+      "title": "Freeing a Captive: Guard and Skill Consequences",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/world-updates-with-time/",
+      "cluster": "world",
+      "title": "How the World Updates When Time Advances",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/autonomous-character-actions/",
+      "cluster": "world",
+      "title": "Do Characters Act Without Coen?",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/dynamic-weather/",
+      "cluster": "world",
+      "title": "Dynamic Weather Confirmed",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-6-creating-world"
+    },
+    {
+      "route": "/fog-visibility/",
+      "cluster": "world",
+      "title": "Does Fog Affect Visibility?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-6-creating-world"
+    },
+    {
+      "route": "/brencis-caeso-burrienus-laurentius/",
+      "cluster": "lore",
+      "title": "Brencis's Roman Name and Origin",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/brencis-roman-senator/",
+      "cluster": "lore",
+      "title": "Brencis as a Roman Senator",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/xanthe-ancient-greek-priestess/",
+      "cluster": "lore",
+      "title": "Xanthe's Ancient Greek Priestess Origin",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/ambrus-human-origins/",
+      "cluster": "lore",
+      "title": "Ambrus's Human Origins",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/bakir-central-asian-origins/",
+      "cluster": "lore",
+      "title": "Bakir's Central Asian Origins",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-1-vrakhiri-our-vampiric-masters"
+    },
+    {
+      "route": "/vrakhiri-blood-economy/",
+      "cluster": "lore",
+      "title": "How the Vrakhiri Blood Economy Works",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/brencis-shrines-coins-frescoes/",
+      "cluster": "lore",
+      "title": "Brencis Shrines, Coins, and Frescoes",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/vrakhiri-new-religion/",
+      "cluster": "lore",
+      "title": "The Vrakhiri's New Religion",
+      "source": "https://news.xbox.com/en-us/2026/04/30/the-blood-of-dawnwalker-world/"
+    },
+    {
+      "route": "/coen-eldest-sibling/",
+      "cluster": "family",
+      "title": "Coen as the Eldest Sibling",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/coen-silver-miner-childhood/",
+      "cluster": "family",
+      "title": "Coen's Childhood in the Silver Mines",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/coen-studies-latin/",
+      "cluster": "family",
+      "title": "Why Does Coen Study Latin?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/pieter-former-mercenary/",
+      "cluster": "family",
+      "title": "Pieter's Former Mercenary Past",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/pieter-sword-training/",
+      "cluster": "family",
+      "title": "Who Taught Coen Swordsmanship?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/esme-illness/",
+      "cluster": "family",
+      "title": "Esme's Illness and the Opening Day",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/yanna-family-role/",
+      "cluster": "family",
+      "title": "Yanna's Role in Coen's Family",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/lunka-vampire-blood-effects/",
+      "cluster": "family",
+      "title": "Does Vampire Blood Change Lunka?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-9-coens-roots"
+    },
+    {
+      "route": "/steelbook-edition/",
+      "cluster": "editions",
+      "title": "Which Dawnwalker Edition Includes a Steelbook?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/world-map-size/",
+      "cluster": "editions",
+      "title": "Dawnwalker Collector's World Map Size",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/physical-world-compendium/",
+      "cluster": "editions",
+      "title": "Physical World Compendium Details",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/eclipse-digital-upgrade/",
+      "cluster": "editions",
+      "title": "Eclipse Edition Digital Upgrade Contents",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/preorder-armor-early-unlock/",
+      "cluster": "editions",
+      "title": "Is the Preorder Armor Exclusive?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/standard-vs-eclipse-edition/",
+      "cluster": "editions",
+      "title": "Standard vs Eclipse Edition",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/day-one-vs-collector-edition/",
+      "cluster": "editions",
+      "title": "Day 1 vs Collector's Edition",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/i5-11400f-requirement/",
+      "cluster": "pc",
+      "title": "Intel Core i5-11400F Minimum Requirement",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/ryzen-7-2700x-requirement/",
+      "cluster": "pc",
+      "title": "Ryzen 7 2700X Minimum Requirement",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/i7-11700k-requirement/",
+      "cluster": "pc",
+      "title": "Intel Core i7-11700K Recommended Requirement",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/ryzen-7-5700x-requirement/",
+      "cluster": "pc",
+      "title": "Ryzen 7 5700X Recommended Requirement",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/gtx-1060-vs-rx-580/",
+      "cluster": "pc",
+      "title": "GTX 1060 vs RX 580 Minimum GPUs",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/rtx-4060-vs-rx-7600-xt/",
+      "cluster": "pc",
+      "title": "RTX 4060 vs RX 7600 XT Recommended GPUs",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/intel-arc-b580-recommended/",
+      "cluster": "pc",
+      "title": "Intel Arc B580 Recommended Status",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/ssd-required/",
+      "cluster": "pc",
+      "title": "Is an SSD Required for Dawnwalker?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/shop-now"
+    },
+    {
+      "route": "/bakir-motion-capture/",
+      "cluster": "development",
+      "title": "Bakir Motion Capture Explained",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/the-blood-of-dawnwalker-will-launch-september-3-rebel-wolves-revealed-key-details"
+    },
+    {
+      "route": "/jan-blachowicz-bakir/",
+      "cluster": "development",
+      "title": "What Did Jan Błachowicz Do on Dawnwalker?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/the-blood-of-dawnwalker-will-launch-september-3-rebel-wolves-revealed-key-details"
+    },
+    {
+      "route": "/uphill-battle-soundtrack/",
+      "cluster": "development",
+      "title": "Uphill Battle Soundtrack Track",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/the-blood-of-dawnwalker-will-launch-september-3-rebel-wolves-revealed-key-details"
+    },
+    {
+      "route": "/self-contained-brencis-conflict/",
+      "cluster": "development",
+      "title": "Does the Brencis Conflict End in This Game?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/saga-spans-centuries/",
+      "cluster": "development",
+      "title": "Will the Dawnwalker Saga Span Centuries?",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/saga-different-cultures/",
+      "cluster": "development",
+      "title": "Future Dawnwalker Locations and Cultures",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/21st-century-saga-teaser/",
+      "cluster": "development",
+      "title": "Dawnwalker 21st-Century Teaser Explained",
+      "source": "https://en.bandainamcoent.eu/dawnwalker/news/rebel-wolves-unveils-more-of-the-blood-of-dawnwalker-and-teases-the-future-of"
+    },
+    {
+      "route": "/kill-npc-content-loss/",
+      "cluster": "development",
+      "title": "Can Killing an NPC Remove Content?",
+      "source": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/"
+    }
+  ],
+  "addedIndexableUrls": 71,
+  "projectedSitemap": {
+    "en": 291,
+    "total": 393
+  }
+}

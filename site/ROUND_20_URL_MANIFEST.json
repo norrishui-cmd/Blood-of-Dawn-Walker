@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-07-29",
+  "round": 20,
+  "locales": [
+    "es",
+    "fr",
+    "it",
+    "pl"
+  ],
+  "routes": [
+    "four-direction-combat",
+    "block-stamina-cost",
+    "shadowstep",
+    "wall-walking",
+    "infamy-system",
+    "blood-convoys",
+    "blacksmith-choice-consequence",
+    "kill-npc-content-loss",
+    "coen-family",
+    "anca",
+    "brencis",
+    "dynamic-weather"
+  ],
+  "newIndexableUrls": 63,
+  "styleContract": [
+    "site-header",
+    "article-main",
+    "article-hero",
+    "article-body",
+    "article-content",
+    "article-aside",
+    "verification-box",
+    "related-grid",
+    "faq-list",
+    "site-footer"
+  ]
+}

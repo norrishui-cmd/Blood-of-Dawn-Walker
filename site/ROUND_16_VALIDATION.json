@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-07-26",
+  "round": 16,
+  "newLocalizedPages": 32,
+  "upgradedLocalizedHomes": 4,
+  "locales": [
+    "zh-hans",
+    "zh-hant",
+    "ko",
+    "pt-br"
+  ],
+  "routesPerLocale": 8,
+  "styleParity": {
+    "sharedStylesheet": true,
+    "responsiveMediaRules": true,
+    "requiredArticleClasses": [
+      "site-header",
+      "article-main",
+      "article-hero",
+      "article-body",
+      "article-content",
+      "article-aside",
+      "verification-box",
+      "related-grid",
+      "faq-list",
+      "site-footer"
+    ],
+    "requiredHomeClasses": [
+      "site-header",
+      "hero",
+      "hero-media",
+      "hero-overlay",
+      "hero-content",
+      "hero-actions",
+      "fact-strip",
+      "research",
+      "band",
+      "section-heading",
+      "insight-grid",
+      "guide-grid",
+      "guide-card",
+      "site-footer"
+    ]
+  },
+  "contentDepth": {
+    "minimumPortugueseWords": 765,
+    "minimumCjkOrKoreanLetters": 1654
+  },
+  "reciprocalHreflangLocales": [
+    "en",
+    "de",
+    "es-ES",
+    "fr",
+    "it",
+    "pl",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "pt-BR"
+  ],
+  "pagesChecked": 32,
+  "errors": []
+}
