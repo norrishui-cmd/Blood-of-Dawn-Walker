@@ -669,6 +669,52 @@ td:first-child {
   font-weight: 800;
 }
 
+/*
+ * Round 11 clusters were appended outside `.article-body`, so they need their
+ * own content constraint. Without it the section spans the viewport and its
+ * inline title/summary elements run together inside four narrow columns.
+ */
+.round11-cluster {
+  width: min(1080px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 0 0 64px;
+}
+
+.round11-cluster > h2 {
+  margin: 0 0 12px;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.08;
+}
+
+.round11-cluster > p {
+  max-width: 780px;
+  margin: 0 0 24px;
+}
+
+.round11-cluster .related-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.round11-cluster .related-grid a {
+  min-width: 0;
+}
+
+.round11-cluster .related-grid strong,
+.round11-cluster .related-grid span {
+  display: block;
+}
+
+.round11-cluster .related-grid strong {
+  line-height: 1.35;
+}
+
+.round11-cluster .related-grid span {
+  margin-top: 9px;
+  color: var(--muted);
+  font-weight: 400;
+  line-height: 1.55;
+}
+
 .not-found {
   min-height: 100vh;
   display: grid;
@@ -720,6 +766,10 @@ td:first-child {
   .article-aside {
     position: static;
   }
+
+  .round11-cluster .related-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 620px) {
@@ -763,6 +813,15 @@ td:first-child {
   .tool-panel {
     padding-top: 46px;
     padding-bottom: 46px;
+  }
+
+  .round11-cluster {
+    width: min(100% - 28px, 1080px);
+    padding-bottom: 46px;
+  }
+
+  .round11-cluster .related-grid {
+    grid-template-columns: 1fr;
   }
 }
 
