@@ -1,20 +1,20 @@
 {
   "generatedAt": "2026-07-26",
-  "liveHtmlFiles": 779,
-  "indexableHtml": 614,
+  "liveHtmlFiles": 864,
+  "indexableHtml": 699,
   "noindexHtml": 165,
   "sitemap": {
-    "en": 291,
-    "allLanguages": 614
+    "en": 376,
+    "allLanguages": 699
   },
   "uniqueMetadata": {
-    "titles": 778,
-    "descriptions": 778,
-    "canonicals": 778
+    "titles": 863,
+    "descriptions": 863,
+    "canonicals": 863
   },
-  "adsenseFiles": 779,
-  "languageDropdownFiles": 779,
-  "jsonLdBlocks": 770,
+  "adsenseFiles": 864,
+  "languageDropdownFiles": 864,
+  "jsonLdBlocks": 855,
   "officialLanguageHomes": 15,
   "errors": [],
   "warnings": []
