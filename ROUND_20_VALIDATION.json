@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-29",
+  "round": 20,
+  "addedIndexableUrls": 63,
+  "localizedDetailPages": 48,
+  "newLocalizedHubs": 15,
+  "minimumDetailWords": {
+    "es": 432,
+    "fr": 425,
+    "it": 423,
+    "pl": 389
+  },
+  "sharedEnglishComponentContract": [
+    "site-header",
+    "article-main",
+    "article-hero",
+    "article-body",
+    "article-content",
+    "article-aside",
+    "verification-box",
+    "related-grid",
+    "faq-list",
+    "site-footer"
+  ],
+  "reciprocalHreflang": [
+    "en",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "pl",
+    "ja"
+  ],
+  "errors": []
+}
